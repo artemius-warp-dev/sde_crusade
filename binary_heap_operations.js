@@ -26,6 +26,7 @@ class MinHeap {
         if(this.heap_size > 0) {
             min = this.harr[0]
             this.harr[0] = this.harr[this.heap_size-1]
+            this.harr.pop()
             this.heap_size--
             this.MinHeapify(0)
         }
