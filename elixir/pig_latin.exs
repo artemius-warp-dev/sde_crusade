@@ -75,3 +75,5 @@ defmodule PigLatin do
 
   defp do_rule_2_3_4(word), do: word
 end
+
+PigLatin.translate("me too") |> IO.inspect()
