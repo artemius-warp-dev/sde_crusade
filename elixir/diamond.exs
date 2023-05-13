@@ -5,40 +5,39 @@ defmodule Diamond do
   """
   @spec build_shape(char) :: String.t()
   def build_shape(letter) do
-    build_shape(?A, letter, acc, ?A - letter, ?A - letter)
+    half = build_shape(?A, letter, [], letter - ?A)
+    [_ | tail] = half
+
+    (Enum.reverse(half) ++ tail)
+    |> Enum.join()
   end
 
-  # defp build_shape(end_letter, end_letter, acc, 0) do
-    
-  #   build_shape()
-  # end
+  defp build_shape(?A, _acc, _, 0), do: ["A\n"]
 
-  # defp build_shape(letter, end_letter,  acc, dots_length) do
-  #   
-  #   
-  # end
+  defp build_shape(?A, end_letter, acc, spaces) do
+    updated_acc = [
+      "#{String.duplicate("\s", spaces)}#{[?A]}#{String.duplicate("\s", spaces)}\n"
+      | acc
+    ]
 
-  defp build_shape(?A, end_letter, acc, dots_amount, dots_reminder) do
-    updated_acc =  ["#{String.duplicate(".", dots_amount)}#{[?A]}#{String.duplicate(".", dots_amount)}" | acc]
-    build_shape(?A + 1, end_letter, updated_acc, dots_amount, dots_reminder - 1)
+    build_shape(?A + 1, end_letter, updated_acc, spaces - 1)
   end
 
-
-  defp build_shape(end_letter, end_letter, acc, dots_amount, 0) do
-    updated_acc = ["#{[letter]}#{String.duplicate(".", dots-amount)}#{[letter]}" | acc]
-    build_shape(end_letter, ?A, updated_acc, dots_amount, dots_remainder)
+  defp build_shape(end_letter, end_letter, acc, 0) do
+    amount = (end_letter - ?A) * 2 - 1
+    ["#{[end_letter]}#{String.duplicate("\s", amount)}#{[end_letter]}\n" | acc]
   end
 
-  defp build_shape(letter, end_letter, acc, dots_amount, dots_reminder) do
-    #···B·B···
-    updated_acc =  ["#{String.duplicate(".", dots_reminder)}#{[letter]}#{String.duplicate(".", dots-amount - dots_reminder)}#{[letter]}#{String.duplicate(".", dots_amount)}" | acc]
-    build_shape(letter + 1, end_letter, updated_acc, dots_amount, dots_reminder - 1)
+  defp build_shape(letter, end_letter, acc, spaces) do
+    amount = (end_letter - ?A) * 2 - 1
+
+    updated_acc = [
+      "#{String.duplicate("\s", spaces)}#{[letter]}#{String.duplicate("\s", amount - 2 * spaces)}#{[letter]}#{String.duplicate("\s", spaces)}\n"
+      | acc
+    ]
+
+    build_shape(letter + 1, end_letter, updated_acc, spaces - 1)
   end
-
-
-  
-  
 end
 
-
-Diamond.build_shape(?A)
+Diamond.build_shape(?D) |> IO.inspect()
