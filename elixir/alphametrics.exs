@@ -17,96 +17,80 @@ defmodule Alphametics do
   """
   @spec solve(puzzle) :: solution | nil
   def solve(puzzle) do
-    # %{
-    #   ?T => 0,
-    #   ?O => 0,
-    #   ?G => 0
-    # }
-    result = ["M", "O", "N", "E", "Y"]
-    left = ["S", "E", "N", "D"]
-    right = ["M", "O", "R", "E"]
-    max_sum = get_max_sum(left, right)
+    {struct, letters} = parse(puzzle)
 
-    acc = %{"M" => 1}
-    solve(left, right, result, max_sum, acc)
+    find_solution(
+      struct,
+      letters,
+      Enum.to_list(0..9),
+      %{}
+    )
   end
 
-  defp parse(), do: []
+  defp find_solution(struct, [], _, acc), do: check_solution(struct, acc)
+
+  defp find_solution(struct, letters, digits, acc) do
+    Enum.find_value(
+      digits,
+      &do_solve(struct, letters, &1, digits -- [&1], acc)
+    )
+  end
+
+  defp do_solve(struct, [ch | rest], digit, digits, acc) do
+    # cond do
+    #  ch in struct.nonzeros ->
+    #    false
+
+    #  digit > 0 or ch not in struct.nonzeros ->
+    find_solution(struct, rest, digits, Map.put(acc, ch, digit))
+    # end
+  end
+
+  defp do_solve(struct, [], _, _, acc), do: check_solution(struct, acc)
+
+  defp check_solution(struct, acc) do
+    sum =
+      struct.addends
+      |> Enum.map(&to_number(&1, acc))
+      |> Enum.reduce(&Kernel.+/2)
+      |> Kernel.==(to_number(struct.sum, acc))
+      |> then(fn
+        true -> acc
+        _ -> false
+      end)
+  end
+
+  defp to_number(chars, acc) do
+    chars
+    |> Enum.map(&acc[&1])
+    |> Integer.undigits()
+  end
+
+  defp parse(puzzle) do
+    words =
+      puzzle
+      |> String.split(" ")
+      |> Enum.filter(fn str -> String.match?(str, ~r/^[A-Z]+$/) end)
+      |> Enum.map(&String.to_charlist/1)
+      |> Enum.reverse()
+
+    [sum | addends] = words
+
+    nonzeros =
+      words
+      |> Enum.map(&hd/1)
+      |> Enum.uniq()
+
+    letters =
+      words
+      |> List.flatten()
+      |> Enum.uniq()
+
+    {%{addends: addends, sum: sum, nonzeros: nonzeros}, letters}
+  end
 
   defp solve(left, right, result, max_sum, acc) do
-    pleft =
-      1000..9999
-      |> Enum.reduce([], fn x, acc ->
-        cond do
-          Integer.digits(x) |> Enum.uniq() |> length() == 4 ->
-            [x | acc]
-
-          true ->
-            acc
-        end
-      end)
-
-    pright =
-      1000..9999
-      |> Enum.reduce([], fn x, acc ->
-        cond do
-          Integer.digits(x) |> Enum.uniq() |> length() == 4 ->
-            [x | acc]
-
-          true ->
-            acc
-        end
-      end)
-
-    for x <- pleft,
-        y <- pright,
-        sum = x + y,
-        sum >= 10000,
-                    [s1, s2, s3, s4, s5] = sum_digits = Integer.digits(sum),
-        Enum.uniq(sum_digits) |> length() == 5, 
-        [l1, l2, l3, l4] = Integer.digits(x),
-        [r1, r2, r3, r4] = Integer.digits(y),
-        l2 == r4 and r4 == s4 and l3 == s3 and r2 == s2 and r1 == s1 and r1 == 1,
-        l3 != r3 and l1 != r3 and l4 != r3 do
-        
-      [x, y]
-    end
   end
-
-  defp solve_reminder(acc, left, right, result) do
-    # 100..max_sum #FIXME
-    # |> Enum.reduce(0, )
-
-    # [0..9]1 + [0..9]1 = 1[0..9][0..9]
-    # x1 + y1 = 1zx
-    for x <- 0..9, y <- 0..9 do
-      # for y <- 0..9  do
-      ["#{x}1", "#{y}1"] |> Enum.map(&String.to_integer/1)
-      # end
-    end
-    # |> List.flatten()
-    # |> Enum.chunk_every(2)
-    |> Enum.filter(fn x -> Enum.sum(x) >= 100 end)
-    |> Enum.find(fn [x, y] ->
-      [l1, l2] = Integer.digits(x)
-      [r1, r2] = Integer.digits(y)
-      [d1, d2, d3] = (x + y) |> Integer.digits()
-      l1 == d3 and d2 not in [l1, l2, r1, r2]
-    end)
-  end
-
-  # defp brute_solve() do
-  #   cond do
-  #   end
-  # end
-
-  defp solve_most_left(left, right, result, acc) do
-    # condition?
-    Map.put(acc, result |> hd, 1)
-  end
-
-  # FIXME
-  defp get_max_sum(left, right), do: 19998
 end
 
 Alphametics.solve("SEND + MORE == MONEY") |> IO.inspect()
