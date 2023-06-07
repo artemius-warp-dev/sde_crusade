@@ -7,46 +7,46 @@ defmodule Dominoes do
   """
   @spec chain?(dominoes :: [domino]) :: boolean
   def chain?([]), do: true
-
+  def chain?([{f,f}]), do: true
   def chain?(dominoes) do
     dominoes
-    |> normalize()
-    |> construct(length(dominoes))
-    # {f1, l1} = List.first(dominoes)
-    # {f2, l2} = List.last(dominoes)
-    # f1 == l2
-  end
-
-  # [{1, 2}, {3, 1}, {2, 3}]
-
-  defp normalize(dominoes) do
-    dominoes
-    |> Enum.reduce([], {h,t}, acc -> [{h,t}] ++ [{t,h}] ++ acc  )
-  end
-
-
-  defp construct([], _, _, _), do: false
-  defp consturct(_, 0, solution, acc), do: [solution | acc]
-  defp construct([{h,t} | tail], length) do
-    case Enum.find(tail, fn {x, _} x == t end) do
-      nil -> construct(tail, length)
-      domino -> 
-    end
+    |> Enum.any?(fn {f,s} = bone ->
+      updated_rest = List.delete(dominoes, bone)
+      do_chain({f,s}, {f,s}, updated_rest) or
+      do_chain({s,f}, {s,f}, updated_rest)
+    end)
   end
 
  
+  defp do_chain({f, _s}, _, [{_lf, f}]) do
+    true
+  end
 
-  
+  defp do_chain(_, _, []), do: false
 
-  #   {1, 2}, {2, 3}, {3, 1}
-  #    %{
-  #      {1,2} => [{2,3}, {3,1}]
-  #      {2, 1} => {1,3}, {1,2}
-  #      {3, 1} => {1,2}
-  #      {1, 3} => {3,2}
-  #      {2, 3} => {3, 1}
-  #      {3, 2} => {2, 1}
-  # }
+  defp do_chain(first, {f, s}, rest) do
+    case get_next(rest, {f, s}) do
+      nil ->
+        false
+
+      {nf, ns} = next ->
+        do_chain(first, {nf, ns}, List.delete(rest, next)) or
+          do_chain(first, {ns, nf}, List.delete(rest, next))
+    end
+  end
+
+  defp get_next(dominoes, {first, second}) do
+    dominoes
+    |> Enum.find(fn {f, s} -> f == second or s == first end)
+  end
 end
 
-Dominoes.format({1, 2}, [{1, 2}, {3, 1}, {2, 3}]) |> IO.inspect()
+# Dominoes.chain?([{2, 1}, {2, 3}, {3, 1}])
+# Dominoes.chain?([{1, 2}, {2, 3}, {3, 1}, {4, 5}, {5, 6}, {6, 4}])
+# Dominoes.chain?([{1, 2}, {2, 1}, {3, 4}, {4, 3}])
+ #Dominoes.chain?([{1, 2}, {2, 3}, {3, 1}, {2, 4}, {2, 4}])
+#Dominoes.chain?([{1, 2}, {2, 3}, {3, 4}])
+# Dominoes.chain?([{1, 2}])
+#Dominoes.chain?([{1, 1}])
+Dominoes.chain?([{1, 2}, {1, 3}, {2, 3}])
+|> IO.inspect()
