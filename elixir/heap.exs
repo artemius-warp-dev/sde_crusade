@@ -1,111 +1,127 @@
-defmodule Heap.List do
-  defstruct size: 0, data: nil
+defmodule MinHeap do
+  @moduledoc """
+  The `MinHeap` module provides an implementation of a min-heap data structure.
+  It allows you to create a heap, insert values, build a heap from a list, and pop the minimum value from the heap.
+  """
 
-  def build_heap(arr) do
-    map =
-      arr
-      |> Enum.with_index()
-      |> Enum.reduce(%{}, fn {v, k}, acc -> Map.put(acc, k, v) end)
+  defstruct data: []
 
-    heapify(%Heap.List{size: length(arr), data: map})
+  @doc """
+  Creates a new empty heap.
+  """
+  def new, do: %MinHeap{}
+
+  @doc """
+  Inserts a value into the heap.
+  """
+  def insert(heap, value) when is_number(value) do
+    heap = %{heap | data: heap.data ++ [value]}
+    up_heapify(heap, length(heap.data) - 1)
   end
 
-  defp heapify(heap) do
-    Map.values(heap.data)
-    |> Enum.with_index()
-    |> Enum.reduce(%{}, fn {v, k}, acc -> Map.put(acc, k, v) end)
-    |> Map.keys()
-    |> Enum.reduce(heap, &heapify/2)
+  @doc """
+  Builds a heap from a list of values.
+  """
+  def build_heap(list) do
+    list
+    |> Enum.reduce(%MinHeap{}, fn e, acc -> insert(acc, e) end)
   end
 
-  defp heapify(i, %Heap.List{size: n, data: map} = acc) do
-    root_min = i
-    left = 2 * i + 1
-    right = 2 * i + 2
+  @doc """
+  Pops the minimum value from the heap.
+  """
+  def pop(%MinHeap{data: []} = heap), do: {nil, heap}
 
-    root_min = if root_min < n and map[root_min] > map[left], do: left, else: root_min
-    root_min = if root_min < n and map[root_min] > map[right], do: right, else: root_min
+  def pop(heap) do
+    root_value = hd(heap.data)
+    rest_data = tl(heap.data)
+    last_index = length(rest_data) - 1
+    swapped_heap = swap_elements(%{heap | data: rest_data}, 0, last_index)
+    {root_value, down_heapify(swapped_heap, 0)}
+  end
 
-    if root_min != i do
-      tmp = map[i]
+  @doc """
+  Converts the heap to a list.
+  """
+  def to_list(heap, acc) do
+    case pop(heap) do
+      {nil, _} -> Enum.reverse(acc)
+      {root, updated_heap} -> to_list(updated_heap, [root | acc])
+    end
+  end
 
-      map =
-        Map.put(map, i, map[root_min])
-        |> Map.put(root_min, tmp)
+  # Retrieves an element from a specific index in the list.
+  defp elem_at(index, list) when index >= 0 and index < length(list), do: Enum.at(list, index)
 
-      heapify(root_min, %{acc | data: map})
+  # Restores the heap property by moving an element up to its correct position.
+  defp up_heapify(heap, 0), do: heap
+
+  defp up_heapify(heap, index) when index > 0 do
+    parent_index = div(index - 1, 2)
+
+    if elem_at(index, heap.data) < elem_at(parent_index, heap.data) do
+      swapped_heap = swap_elements(heap, index, parent_index)
+      up_heapify(swapped_heap, parent_index)
     else
-      acc
+      heap
     end
   end
 
-  def to_list(%Heap.List{size: 0}, acc), do: Enum.reverse(acc)
+  # Restores the heap property by moving an element down to its correct position.
+  defp down_heapify(heap, index) when index >= length(heap.data), do: heap
 
-  def to_list(heap, acc) do
-    {top, rest} = Map.pop(heap.data, Map.keys(heap.data) |> Enum.min())
+  defp down_heapify(heap, index) do
+    left_child_index = index * 2 + 1
+    right_child_index = index * 2 + 2
 
-    to_list(
-      heapify(%{heap | data: rest, size: heap.size - 1}),
-      [top | acc]
-    )
-  end
-end
+    min_child_index = get_min_index(heap, left_child_index, right_child_index)
 
-defmodule Heap do
-  defstruct size: 0, data: nil
-
-  def build_heap(arr) do
-    build_heap(arr, %Heap{size: 0})
-  end
-
-  defp build_heap(arr, heap) do
-    arr
-    |> Enum.reduce(heap, &push/2)
-  end
-
-  defp push(e, %Heap{size: n, data: data}) do
-    %Heap{size: n + 1, data: meld(data, {e, []})}
-  end
-
-  defp meld(nil, heap), do: heap
-  defp meld(heap, nil), do: heap
-
-  defp meld({k0, l0}, {k1, _} = r) when k0 < k1, do: {k0, [r | l0]}
-  defp meld({_, _} = l, {k1, r0}), do: {k1, [l | r0]}
-
-  def pop(%Heap{data: {_, heap}, size: n} = _heap),
-    do: %Heap{data: heapify(heap), size: n - 1}
-
-  def root(%Heap{data: {v, _}} = _heap), do: v
-  def root(%Heap{data: nil, size: 0} = _heap), do: nil
-
-  defp heapify([]), do: nil
-  defp heapify([q]), do: q
-
-  defp heapify([left, right | q]) do
-    min = meld(left, right)
-    meld(min, heapify(q))
-  end
-
-  def to_list(heap, acc) do
-    case Heap.root(heap) do
-      nil -> Enum.reverse(acc)
-      root -> to_list(Heap.pop(heap), [root | acc])
+    if min_child_index < length(heap.data) and
+         elem_at(min_child_index, heap.data) < elem_at(index, heap.data) do
+      swapped_heap = swap_elements(heap, index, min_child_index)
+      down_heapify(swapped_heap, min_child_index)
+    else
+      heap
     end
   end
+
+  # Determines the index of the smallest child of a given node.
+  defp get_min_index(heap, left_child_index, right_child_index) do
+    if right_child_index < length(heap.data) and
+         elem_at(right_child_index, heap.data) < elem_at(left_child_index, heap.data) do
+      right_child_index
+    else
+      left_child_index
+    end
+  end
+
+  # Swaps elements at two specified indices in the heap data list.
+  defp swap_elements(heap, _, -1), do: heap
+
+  defp swap_elements(heap, index1, index2) do
+    data = heap.data
+    temp = elem_at(index1, data)
+    data = List.replace_at(data, index1, elem_at(index2, data))
+    data = List.replace_at(data, index2, temp)
+    %{heap | data: data}
+  end
 end
 
-heap_with_list =
-  [1, 5, 6, 8, 9, 7, 3]
-  |> Heap.List.build_heap()
-  |> Heap.List.to_list([])
-  |> IO.inspect()
+# Example usage of the MinHeap module...
+
+heap = MinHeap.new()
+heap = MinHeap.insert(heap, 5)
+heap = MinHeap.insert(heap, 300)
+heap = MinHeap.insert(heap, 3)
+heap = MinHeap.insert(heap, 100)
+heap = MinHeap.insert(heap, 8)
+
+{min_value, heap} = MinHeap.pop(heap)
+# Output: Minimum value: 3
+IO.puts("Minimum value: #{min_value}")
 
 heap =
   [1, 5, 6, 8, 9, 7, 3]
-  |> Heap.build_heap()
-  |> Heap.to_list([])
+  |> MinHeap.build_heap()
+  |> MinHeap.to_list([])
   |> IO.inspect()
-
-
-(heap == heap_with_list) |> IO.inspect()
