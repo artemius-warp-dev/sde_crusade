@@ -10,6 +10,7 @@ defmodule MinHeap do
   Creates a new empty heap.
   """
   def new, do: %MinHeap{}
+  def new(data), do: %MinHeap{data: data}
 
   @doc """
   Inserts a value into the heap.
@@ -107,21 +108,21 @@ defmodule MinHeap do
   end
 end
 
-# Example usage of the MinHeap module...
+# # Example usage of the MinHeap module...
 
-heap = MinHeap.new()
-heap = MinHeap.insert(heap, 5)
-heap = MinHeap.insert(heap, 300)
-heap = MinHeap.insert(heap, 3)
-heap = MinHeap.insert(heap, 100)
-heap = MinHeap.insert(heap, 8)
+# heap = MinHeap.new()
+# heap = MinHeap.insert(heap, 5)
+# heap = MinHeap.insert(heap, 300)
+# heap = MinHeap.insert(heap, 3)
+# heap = MinHeap.insert(heap, 100)
+# heap = MinHeap.insert(heap, 8)
 
-{min_value, heap} = MinHeap.pop(heap)
-# Output: Minimum value: 3
-IO.puts("Minimum value: #{min_value}")
+# {min_value, heap} = MinHeap.pop(heap)
+# # Output: Minimum value: 3
+# IO.puts("Minimum value: #{min_value}")
 
-heap =
-  [1, 5, 6, 8, 9, 7, 3]
-  |> MinHeap.build_heap()
-  |> MinHeap.to_list([])
-  |> IO.inspect()
+# heap =
+#   [1, 5, 6, 8, 9, 7, 3]
+#   |> MinHeap.build_heap()
+#   |> MinHeap.to_list([])
+#   |> IO.inspect()
