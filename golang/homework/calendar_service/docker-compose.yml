@@ -1,0 +1,98 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -q -U myuser -d mydatabase" ]
+      interval: 10s
+      retries: 5
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: mydatabase
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - my_network
+
+  migrate:
+    image: migrate/migrate
+    command: ["-path", "./db/migrations/", "-database", "postgres://myuser:mypassword@postgres:5432/mydatabase?sslmode=disable", "up"]
+    volumes:
+      - ./db/migrations:/db/migrations
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "pg_isready", "-q", "-h", "postgres", "-U", "myuser", "-d", "mydatabase"]
+      interval: 10s
+      retries: 5
+    networks:
+      - my_network
+
+  rabbitmq:
+    image: rabbitmq:3.9-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - my_network
+
+  api:
+    build:
+      context: .
+      dockerfile: ./cmd/api/Dockerfile
+    container_name: api
+    ports:
+      - "8080:8080"
+      - "50051:50051"
+    depends_on:
+      - postgres
+      - migrate
+    volumes:
+      - ./application:/app/application
+      - ./vendor:/app/vendor
+    networks:
+      - my_network
+
+  scheduler:
+    build:
+      context: .
+      dockerfile: ./cmd/scheduler/Dockerfile
+    container_name: scheduler
+    depends_on:
+      - postgres
+      - rabbitmq
+      - migrate
+    volumes:
+      - ./application:/app/application
+      - ./vendor:/app/vendor
+    networks:
+      - my_network
+
+  sender:
+    build:
+      context: .
+      dockerfile: ./cmd/sender/Dockerfile
+    container_name: sender
+    depends_on:
+      - postgres
+      - rabbitmq
+      - migrate
+    volumes:
+      - ./application:/app/application
+      - ./vendor:/app/vendor
+    networks:
+      - my_network
+
+volumes:
+  postgres_data:
+
+networks:
+  my_network:
+    driver: bridge
