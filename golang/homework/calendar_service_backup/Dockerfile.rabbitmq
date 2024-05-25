@@ -1,8 +1,0 @@
-# Use the official RabbitMQ base image
-FROM rabbitmq:3.9-management
-
-# Expose necessary ports
-EXPOSE 5672 15672
-
-# Start RabbitMQ server
-CMD ["rabbitmq-server"]
