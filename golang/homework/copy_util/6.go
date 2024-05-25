@@ -1,0 +1,80 @@
+// Домашнее задание
+// Копирование файлов
+// Цель: Реализовать утилиту копирования файлов Утилита должна принимать следующие аргументы * файл источник (From) * файл копия (To) * Отступ в источнике (Offset), по умолчанию - 0 * Количество копируемых байт (Limit), по умолчанию - весь файл из From Выводить в консоль прогресс копирования в %, например с помощью github.com/cheggaaa/pb Программа может НЕ обрабатывать файлы, у которых не известна длинна (например /dev/urandom).
+// Завести в репозитории отдельный пакет (модуль) для этого ДЗ
+// Реализовать функцию вида Copy(from string, to string, limit int, offset int) error
+// Написать unit-тесты на функцию Copy
+// Реализовать функцию main, анализирующую параметры командной строки и вызывающую Copy
+// Проверить установку и работу утилиты руками
+// Критерии оценки: Функция должна проходить все тесты
+// Все необходимые для тестов файлы должны создаваться в самом тесте
+// Код должен проходить проверки go vet и golint
+// У преподавателя должна быть возможность скачать, проверить и установить пакет с помощью go get / go test / go install
+
+package copy_util
+
+import (
+	"flag"
+	"fmt"
+	"github.com/cheggaaa/pb/v3"
+	"io"
+	"os"
+)
+
+var from string
+var to string
+var limit int64
+var offset int64
+
+func init() {
+	flag.StringVar(&from, "from", "", "source file")
+	flag.StringVar(&to, "to", "", "destination file")
+	flag.Int64Var(&limit, "limit", 0, "bytes to copy, default it's all file")
+	flag.Int64Var(&offset, "offset", 0, "bytes to offset from source, default it's 0")
+}
+
+func Copy(from string, to string, limit int64, offset int64) error {
+	source, err := os.Open(from)
+	if err != nil {
+		fmt.Println("Error during source file opening", err)
+		return err
+	}
+	source.Seek(offset, io.SeekStart)
+	defer source.Close()
+	limit = get_size(source, limit)
+	bar := pb.Full.Start64(limit)
+	barReader := bar.NewProxyReader(source)
+	dest, err := os.Create(to)
+	if err != nil {
+		fmt.Println("Error during destination file opening", err)
+		return err
+	}
+	defer dest.Close()
+
+	bytesCopied, err := io.CopyN(dest, barReader, limit)
+
+	fmt.Printf("Copied %d bytes\n", bytesCopied)
+	bar.Finish()
+	return err
+
+}
+
+func get_size(file *os.File, limit int64) int64 {
+	if limit <= 0 {
+		fileInfo, _ := file.Stat()
+		size := fileInfo.Size()
+		if size == 0 {
+			panic("Error: Length of the file is 0")
+
+		}
+		return fileInfo.Size()
+	}
+	return limit
+
+}
+
+func main() {
+	flag.Parse()
+	Copy(from, to, limit, offset)
+
+}

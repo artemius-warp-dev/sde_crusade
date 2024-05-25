@@ -1,0 +1,1226 @@
+{"message":"Configuration is set"}
+{"message":"Configuration is set"}
+{"message":"Server is running on port: 8080 IP: 0.0.0.0"}
+{"message":"Failed to start server","error":"listen tcp: address ᾐ: missing port in address"}
+{"message":"Configuration is set"}
+{"message":"Server is running on port: 8080 IP: 0.0.0.0"}
+{"message":"Failed to start server","error":"listen tcp: lookup tcp/ᾐ: unknown port"}
+{"message":"Configuration is set"}
+{"message":"Server is running on port: 8080 IP: 0.0.0.0"}
+{"message":"Configuration is set"}
+{"message":"Server is running on port: 8080 IP: 0.0.0.0"}
+{"message":"Failed to start server","error":"listen tcp: address ᾐ: missing port in address"}
+{"message":"Configuration is set"}
+{"message":"Server is running on port: 8080 IP: 0.0.0.0"}
+{"message":"Failed to start server","error":"listen tcp: address ᾐ: missing port in address"}
+{"message":"Configuration is set"}
+{"message":"Server is running on port: 8080 IP: 0.0.0.0"}
+{"message":"Failed to start server","error":"listen tcp: address 8080: missing port in address"}
+{"message":"Configuration is set"}
+{"message":"Server is running on port: 8080 IP: 0.0.0.0"}
+{"message":"/hello is handled","method":"GET","path":"/hello","remote_address":"127.0.0.1:52344"}
+{"message":"/hello is handled","method":"GET","path":"/hello","remote_address":"127.0.0.1:37556"}
+{"message":"Configuration is set"}
+{"message":"Server is running on port: 8080 IP: 0.0.0.0"}
+{"message":"/hello is handled","method":"GET","path":"/hello","remote_address":"127.0.0.1:43976"}
+{"message":"Configuration is set"}
+{"message":"Configuration is set"}
+{"message":"Configuration is set"}
+{"message":"Configuration is set"}
+{"message":"Configuration is set"}
+{"message":"Configuration is set"}
+{"message":"Configuration is set"}
+{"message":"Test5"}
+{"message":"Configuration is set"}
+{"message":"Test5"}
+{"message":"Configuration is set"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Handlers are set"}
+{"message":"Configuration is set"}
+{"message":"Handlers are set"}
+{"message":"Configuration is set"}
+{"message":"Handlers are set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Configuration is set"}
+{"message":"Handlers are set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"IN createEvent handler"}
+{"message":"POST\t/create_event\t127.0.0.1:49592\t168.567µs\n"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"IN createEvent handler"}
+{"message":"POST\t/create_event\t127.0.0.1:57978\t170.031µs\n"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"IN createEvent handler"}
+{"message":"POST\\t/create_event\\t127.0.0.1:49518\\t174.968µs\n"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"POST//create_event/127.0.0.1:44504/133.703µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"GET//events_for_day/127.0.0.1:57178/54.96µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Events for day:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:59322 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:59322/166.613µs"}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:55182 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:55182/221.752µs"}
+{"message":"Events for day:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:36890 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:36890/166.435µs"}
+{"message":"Events for day:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:45028 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:45028/186.307µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:58818 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:58818/496.963µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:56292 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:56292/116.847µs"}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:46164 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:46164/159.881µs"}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:46176 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:46176/132.214µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:59826 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:59826/92.583µs"}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:59830 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:59830/96.046µs"}
+{"message":"Events for day:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:50892 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:50892/157.562µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:52732 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:52732/132.414µs"}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:55206 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:55206/115.843µs"}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:55208 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:55208/145.531µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:50220 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:50220/127.767µs"}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:50224 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:50224/219.425µs"}
+{"message":"Events for day:  [ID: 123456789, Title: Team Meeting, Description: Discuss project updates and next steps, StartTime: 2024-04-20T09:00:00Z, EndTime: 2024-04-20T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com] ID: 123456789, Title: Team Meeting, Description: Discuss project updates and next steps, StartTime: 2024-04-20T09:00:00Z, EndTime: 2024-04-20T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:53158 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:53158/156.554µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:56506 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:56506/132.264µs"}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:56514 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:56514/167.235µs"}
+{"message":"Events for day:  [ID: 123456789, Title: Team Meeting, Description: Discuss project updates and next steps, StartTime: 2024-04-20T09:00:00Z, EndTime: 2024-04-20T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com] ID: 123456789, Title: Team Meeting, Description: Discuss project updates and next steps, StartTime: 2024-04-20T09:00:00Z, EndTime: 2024-04-20T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:42256 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:42256/173.737µs"}
+{"message":"Event deleted with ID:  123456789 {method 15 0 DELETE <nil>} {path 15 0 /delete_event <nil>} {remote_address 15 0 127.0.0.1:34174 <nil>}"}
+{"message":"DELETE//delete_event?id=123456789/127.0.0.1:34174/74.199µs"}
+{"message":"Events for day:  [ID: 123456789, Title: Team Meeting, Description: Discuss project updates and next steps, StartTime: 2024-04-20T09:00:00Z, EndTime: 2024-04-20T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:46382 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:46382/105.695µs"}
+{"message":"Event deleted with ID:  123456789 {method 15 0 DELETE <nil>} {path 15 0 /delete_event <nil>} {remote_address 15 0 127.0.0.1:46396 <nil>}"}
+{"message":"DELETE//delete_event?id=123456789/127.0.0.1:46396/73.155µs"}
+{"message":"Events for day:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:46400 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:46400/132.079µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:45978 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:45978/157.092µs"}
+{"message":"Events for day:  [ID: 123456789, Title: Team Meeting, Description: Discuss project updates and next steps, StartTime: 2024-04-20T09:00:00Z, EndTime: 2024-04-20T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:45980 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:45980/222.173µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:51062 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:51062/129.114µs"}
+{"message":"Events for day:  [ID: 123456789, Title: Team Meeting, Description: Discuss project updates and next steps, StartTime: 2024-04-20T09:00:00Z, EndTime: 2024-04-20T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:60664 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:60664/269.376µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:58116 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:58116/156.883µs"}
+{"message":"Events for day:  [ID: 123456789, Title: Team Meeting, Description: Discuss project updates and next steps, StartTime: 2024-04-20T09:00:00Z, EndTime: 2024-04-20T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:41056 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:41056/228.633µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:34898 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:34898/159.168µs"}
+{"message":"Events for day:  [ID: 123456789, Title: Team Meeting, Description: Discuss project updates and next steps, StartTime: 2024-04-20T09:00:00Z, EndTime: 2024-04-20T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:34902 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:34902/188.267µs"}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:53482 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:53482/190.293µs"}
+{"message":"Event deleted with ID:  123456789 {method 15 0 DELETE <nil>} {path 15 0 /delete_event <nil>} {remote_address 15 0 127.0.0.1:53498 <nil>}"}
+{"message":"DELETE//delete_event?id=123456789/127.0.0.1:53498/101.228µs"}
+{"message":"Events for day:  [ID: 123456789, Title: Team Meeting, Description: Discuss project updates and next steps, StartTime: 2024-04-20T09:00:00Z, EndTime: 2024-04-20T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:53508 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:53508/119.251µs"}
+{"message":"Event deleted with ID:  123456789 {method 15 0 DELETE <nil>} {path 15 0 /delete_event <nil>} {remote_address 15 0 127.0.0.1:47784 <nil>}"}
+{"message":"DELETE//delete_event?id=123456789/127.0.0.1:47784/86.852µs"}
+{"message":"Events for day:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:47792 <nil>}"}
+{"message":"GET//events_for_day/127.0.0.1:47792/88.435µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456789 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:58294 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:58294/519.563µs"}
+{"message":"Event created with ID:  123456781 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:33004 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:33004/400.298µs"}
+{"message":"Event created with ID:  123456782 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:43768 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:43768/532.036µs"}
+{"message":"Event created with ID:  123456782 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:57474 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:57474/396.119µs"}
+{"message":"Events for day:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:49436 <nil>}"}
+{"message":"GET//events_for_day?day=Monday/127.0.0.1:49436/264.967µs"}
+{"message":"Events for day:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:40908 <nil>}"}
+{"message":"GET//events_for_day?day=22/127.0.0.1:40908/247.707µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456782 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:41408 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:41408/725.204µs"}
+{"message":"Events for day:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:34364 <nil>}"}
+{"message":"GET//events_for_day?day=22/127.0.0.1:34364/256.549µs"}
+{"message":"Events for day:  [ID: 123456782, Title: Team Meeting3, Description: Discuss project updates and next steps, StartTime: 2024-05-22T09:00:00Z, EndTime: 2024-05-22T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_day <nil>} {remote_address 15 0 127.0.0.1:40656 <nil>}"}
+{"message":"GET//events_for_day?day=2024-05-22/127.0.0.1:40656/273.174µs"}
+{"message":"Events for week:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:36514 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:36514/166.987µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456782 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:54194 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:54194/541.833µs"}
+{"message":"Events for week:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:47230 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:47230/316.647µs"}
+{"message":"Events for week:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:42654 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:42654/220.31µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456782 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:40340 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:40340/571.312µs"}
+{"message":"Events for week:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:45594 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:45594/275.807µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456782 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:38954 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:38954/556.466µs"}
+{"message":"Events for week:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:38970 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:38970/314.091µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456782 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:59402 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:59402/599.246µs"}
+{"message":"Events for week:  [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:59414 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:59414/363.919µs"}
+{"message":"Events for week:  [ID: 123456782, Title: Team Meeting3, Description: Discuss project updates and next steps, StartTime: 2024-05-22T09:00:00Z, EndTime: 2024-05-22T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:59074 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18&endOfWeek=2024-05-25/127.0.0.1:59074/330.141µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Server is running on address: %!s(int=50051) "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Server is running on address: 50051 "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 50051 "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 50051 "}
+{"message":"Received CreateEvent request: event:{id:\"123\" title:\"Example Event\" description:\"Discuss project updates and next steps\" startTime:\"2024-05-18T09:00:00Z\" endTime:\"2024-05-18T10:00:00Z\" location:\"Conference Room A\" attendees:\"user1@example.com\" attendees:\"user2@example.com\" attendees:\"user3@example.com\"}"}
+{"message":"Received CreateEvent request: event:{id:\"123\" title:\"Example Event\" description:\"Discuss project updates and next steps\" startTime:\"2024-05-18T09:00:00Z\" endTime:\"2024-05-18T10:00:00Z\" location:\"Conference Room A\" attendees:\"user1@example.com\" attendees:\"user2@example.com\" attendees:\"user3@example.com\"}"}
+{"message":"Received CreateEvent request: event:{id:\"123\" title:\"Example Event\" description:\"Discuss project updates and next steps\" startTime:\"2024-05-18T09:00:00Z\" endTime:\"2024-05-18T10:00:00Z\" location:\"Conference Room A\" attendees:\"user1@example.com\" attendees:\"user2@example.com\" attendees:\"user3@example.com\"}"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 50051 "}
+{"message":"Received CreateEvent request: event:{title:\"Example Event\" description:\"Discuss project updates and next steps\" startTime:\"2024-05-18T09:00:00Z\" endTime:\"2024-05-18T10:00:00Z\" location:\"Conference Room A\" attendees:\"user1@example.com\" attendees:\"user2@example.com\" attendees:\"user3@example.com\"}"}
+{"message":"Event in grpc is invalid: {error 26 0  ID is required}"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 50051 "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 50051 "}
+{"message":"Received CreateEvent request: event:{title:\"Example Event\"  description:\"Discuss project updates and next steps\"  startTime:\"2024-05-18T09:00:00Z\"  endTime:\"2024-05-18T10:00:00Z\"  location:\"Conference Room A\"  attendees:\"user1@example.com\"  attendees:\"user2@example.com\"  attendees:\"user3@example.com\"}"}
+{"message":"Event in grpc is invalid: {error 26 0  ID is required}"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 50051 "}
+{"message":"Received CreateEvent request: event:{id:\"123\" title:\"Example Event\" description:\"Discuss project updates and next steps\" startTime:\"2024-05-18T09:00:00Z\" endTime:\"2024-05-18T10:00:00Z\" location:\"Conference Room A\" attendees:\"user1@example.com\" attendees:\"user2@example.com\" attendees:\"user3@example.com\"}"}
+{"message":"Received EventsForWeek request: startOfWeek:\"2024-05-18\" endOfWeek:\"2024-05-25\""}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 50051 "}
+{"message":"Received gRPC request","method":"/events.EventService/EventsForWeek"}
+{"message":"Received EventsForWeek request: startOfWeek:\"2024-05-18\" endOfWeek:\"2024-05-25\""}
+{"message":"Sending gRPC response","method":"/events.EventService/EventsForWeek"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 50051 "}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID:  123456782 {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:57184 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:57184/542.988µs"}
+{"message":"Received gRPC request","method":"/events.EventService/EventsForWeek"}
+{"message":"Received EventsForWeek request: startOfWeek:\"2024-05-18\"  endOfWeek:\"2024-05-25\""}
+{"message":"Sending gRPC response","method":"/events.EventService/EventsForWeek"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051 "}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051 "}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051 "}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051 "}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051 "}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051 "}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051 "}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Event created with ID: ","event ID: ":"123456782","method":"POST","path":"/create_event","remote_address":"127.0.0.1:56492"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051 "}
+{"message":"Server is running on address: 0.0.0.0:8080 "}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Received gRPC request{method 15 0 /events.EventService/CreateEvent <nil>}"}
+{"message":"Received CreateEvent request:event:{id:\"123\" title:\"Sample Event\" description:\"This is a sample event\" startTime:\"2024-05-12T10:00:00Z\" endTime:\"2024-05-12T12:00:00Z\" location:\"Sample Location\" attendees:\"attendee1@example.com\" attendees:\"attendee2@example.com\"}"}
+{"message":"Sending gRPC response{method 15 0 /events.EventService/CreateEvent <nil>}"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Connection errorfailed to ping database: pq: password authentication failed for user \"myuser\""}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Connection errorfailed to ping database: pq: password authentication failed for user \"myuser\""}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Connection errorfailed to ping database: pq: password authentication failed for user \"myuser\""}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Event created with ID: {event ID:  15 0 123456782 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 127.0.0.1:53000 <nil>}"}
+{"message":"POST//create_event/127.0.0.1:53000/4.925231ms"}
+{"message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:56474 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:56474/755.466µs"}
+{"message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:40966 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:40966/733.807µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:32978 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:32978/1.059091ms"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:33482 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:33482/1.222682ms"}
+{"message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:51932 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:51932/699.861µs"}
+{"message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:52042 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:52042/681.69µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:48064 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:48064/1.198505ms"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:52970 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:52970/1.168448ms"}
+{"message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:37714 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:37714/630.618µs"}
+{"message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:59242 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18/127.0.0.1:59242/635.286µs"}
+{"message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:41110 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18&endOfWeek=2024-05-21/127.0.0.1:41110/690.862µs"}
+{"message":"Events for week: [ID: 123456782, Title: Team Meeting3, Description: Discuss project updates and next steps, StartTime: 2024-05-22T09:00:00Z, EndTime: 2024-05-22T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:50082 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18&endOfWeek=2024-05-23/127.0.0.1:50082/627.993µs"}
+{"message":"Error in createEvent handler{error 26 0  failed to add event: pq: duplicate key value violates unique constraint \"events_pkey\"}"}
+{"message":"POST//create_event/127.0.0.1:47872/1.3883ms"}
+{"message":"Event is invalid:{error 26 0  ID is required}"}
+{"message":"POST//create_event/127.0.0.1:52158/141.23µs"}
+{"message":"Event updated with ID: {event ID:  15 0 123456782 <nil>} {method 15 0 POST <nil>} {path 15 0 /update_event <nil>} {remote_address 15 0 127.0.0.1:51186 <nil>}"}
+{"message":"POST//update_event?id=123456782/127.0.0.1:51186/3.207345ms"}
+{"message":"Events for week: [ID: 123456782, Title: Team Meeting4, Description: Discuss project updates and next steps, StartTime: 2024-05-22T09:00:00Z, EndTime: 2024-05-22T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:59826 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18&endOfWeek=2024-05-25/127.0.0.1:59826/623.828µs"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Connection error failed to ping database: dial tcp: lookup port=: Temporary failure in name resolution"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Connection error failed to ping database: dial tcp: lookup port=: Temporary failure in name resolution"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Connection error failed to ping database: dial tcp 127.0.0.1:5432: connect: connection refused"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 127.0.0.1:56254 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18&endOfWeek=2024-05-25/127.0.0.1:56254/2.164356ms"}
+{"message":"Event created with ID: {event ID:  15 0 123456782 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 [::1]:43954 <nil>}"}
+{"message":"POST//create_event/[::1]:43954/5.376522ms"}
+{"message":"Events for week: [ID: 123456782, Title: Team Meeting3, Description: Discuss project updates and next steps, StartTime: 2024-05-22T09:00:00Z, EndTime: 2024-05-22T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 [::1]:43954 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18&endOfWeek=2024-05-25/[::1]:43954/1.090331ms"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Received gRPC request{method 15 0 /events.EventService/CreateEvent <nil>}"}
+{"message":"Received CreateEvent request:event:{id:\"123\" title:\"Sample Event\" description:\"This is a sample event\" startTime:\"2024-05-12T10:00:00Z\" endTime:\"2024-05-12T12:00:00Z\" location:\"Sample Location\" attendees:\"attendee1@example.com\" attendees:\"attendee2@example.com\"}"}
+{"message":"Sending gRPC response{method 15 0 /events.EventService/CreateEvent <nil>}"}
+{"message":"Received gRPC request{method 15 0 /events.EventService/EventsForWeek <nil>}"}
+{"message":"Received EventsForWeek request:startOfWeek:\"2024-05-18\" endOfWeek:\"2024-05-25\""}
+{"message":"Sending gRPC response{method 15 0 /events.EventService/EventsForWeek <nil>}"}
+{"message":"Received gRPC request{method 15 0 /events.EventService/EventsForWeek <nil>}"}
+{"message":"Received EventsForWeek request:startOfWeek:\"2024-05-10\" endOfWeek:\"2024-05-25\""}
+{"message":"Sending gRPC response{method 15 0 /events.EventService/EventsForWeek <nil>}"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Event created with ID: {event ID:  15 0 123456783 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 [::1]:39224 <nil>}"}
+{"message":"POST//create_event/[::1]:39224/421.206µs"}
+{"message":"Events for week: [ID: 123456783, Title: Team Meeting5, Description: Discuss project updates and next steps, StartTime: 2024-05-22T09:00:00Z, EndTime: 2024-05-22T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 [::1]:39224 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18&endOfWeek=2024-05-25/[::1]:39224/330.034µs"}
+{"message":"Received gRPC request{method 15 0 /events.EventService/CreateEvent <nil>}"}
+{"message":"Received CreateEvent request:event:{id:\"123\"  title:\"Sample Event\"  description:\"This is a sample event\"  startTime:\"2024-05-12T10:00:00Z\"  endTime:\"2024-05-12T12:00:00Z\"  location:\"Sample Location\"  attendees:\"attendee1@example.com\"  attendees:\"attendee2@example.com\"}"}
+{"message":"Sending gRPC response{method 15 0 /events.EventService/CreateEvent <nil>}"}
+{"message":"Received gRPC request{method 15 0 /events.EventService/EventsForWeek <nil>}"}
+{"message":"Received EventsForWeek request:startOfWeek:\"2024-05-10\"  endOfWeek:\"2024-05-25\""}
+{"message":"Sending gRPC response{method 15 0 /events.EventService/EventsForWeek <nil>}"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Event created with ID: {event ID:  15 0 123456783 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 [::1]:33394 <nil>}"}
+{"message":"POST//create_event/[::1]:33394/5.29179ms"}
+{"message":"Events for week: [ID: 123456782, Title: Team Meeting3, Description: Discuss project updates and next steps, StartTime: 2024-05-22T09:00:00Z, EndTime: 2024-05-22T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com] ID: 123456783, Title: Team Meeting5, Description: Discuss project updates and next steps, StartTime: 2024-05-22T09:00:00Z, EndTime: 2024-05-22T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 [::1]:33394 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18&endOfWeek=2024-05-25/[::1]:33394/1.122559ms"}
+{"message":"Received gRPC request{method 15 0 /events.EventService/CreateEvent <nil>}"}
+{"message":"Received CreateEvent request:event:{id:\"123\"  title:\"Sample Event\"  description:\"This is a sample event\"  startTime:\"2024-05-12T10:00:00Z\"  endTime:\"2024-05-12T12:00:00Z\"  location:\"Sample Location\"  attendees:\"attendee1@example.com\"  attendees:\"attendee2@example.com\"}"}
+{"message":"Error in  grpc createEvent handler{error 26 0  failed to add event: pq: duplicate key value violates unique constraint \"events_pkey\"}"}
+{"message":"Sending gRPC response{method 15 0 /events.EventService/CreateEvent <nil>}"}
+{"message":"Received gRPC request{method 15 0 /events.EventService/EventsForWeek <nil>}"}
+{"message":"Received EventsForWeek request:startOfWeek:\"2024-05-10\"  endOfWeek:\"2024-05-25\""}
+{"message":"Sending gRPC response{method 15 0 /events.EventService/EventsForWeek <nil>}"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Storage is set"}
+{"message":"Message broker is ready"}
+{"message":"Storage is set"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Message broker is ready"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Message broker is ready"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Storage is set"}
+{"message":"Message broker is ready"}
+{"message":"Storage is set"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Message broker is ready"}
+{"message":"Storage is set"}
+{"message":"Scheduler running"}
+{"message":"Storage is set"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Message broker is ready"}
+{"message":"Before gocron"}
+{"message":"Test"}
+{"message":"Scheduler running"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Message broker is ready"}
+{"message":"Before gocron"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Scheduler task start"}
+{"message":"Error fetching events: pq: relation \"calendar_events\" does not exist"}
+{"message":"Scheduler task start"}
+{"message":"Error fetching events: pq: relation \"calendar_events\" does not exist"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Storage is set"}
+{"message":"Message broker is ready"}
+{"message":"Before gocron"}
+{"message":"Storage is set"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Received gRPC request{method 15 0 /events.EventService/EventsForWeek <nil>}"}
+{"message":"Received EventsForWeek request:startOfWeek:\"2024-05-10\" endOfWeek:\"2024-05-25\""}
+{"message":"Sending gRPC response{method 15 0 /events.EventService/EventsForWeek <nil>}"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Event created with ID: {event ID:  15 0 123456783 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 [::1]:42530 <nil>}"}
+{"message":"POST//create_event/[::1]:42530/5.141317ms"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Event created with ID: {event ID:  15 0 123456784 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 [::1]:42530 <nil>}"}
+{"message":"POST//create_event/[::1]:42530/2.474266ms"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Events for week: [ID: 123456783, Title: Team Meeting5, Description: Discuss project updates and next steps, StartTime: 2024-05-22T09:00:00Z, EndTime: 2024-05-22T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com] ID: 123456784, Title: Team Meeting7, Description: Discuss project updates and next steps, StartTime: 2024-05-19T22:00:00Z, EndTime: 2024-05-18T23:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 [::1]:42530 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18&endOfWeek=2024-05-25/[::1]:42530/1.19884ms"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Events for week: [ID: 123456783, Title: Team Meeting5, Description: Discuss project updates and next steps, StartTime: 2024-05-22T09:00:00Z, EndTime: 2024-05-22T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com] ID: 123456784, Title: Team Meeting7, Description: Discuss project updates and next steps, StartTime: 2024-05-19T22:00:00Z, EndTime: 2024-05-18T23:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 [::1]:48206 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18&endOfWeek=2024-05-25/[::1]:48206/2.378307ms"}
+{"message":"Event created with ID: {event ID:  15 0 1 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 [::1]:48206 <nil>}"}
+{"message":"POST//create_event/[::1]:48206/4.549946ms"}
+{"message":"Scheduler task start"}
+{"message":"Event created with ID: {event ID:  15 0 2 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 [::1]:48206 <nil>}"}
+{"message":"POST//create_event/[::1]:48206/4.697152ms"}
+{"message":"Events for week: [ID: 123456783, Title: Team Meeting5, Description: Discuss project updates and next steps, StartTime: 2024-05-22T09:00:00Z, EndTime: 2024-05-22T10:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com] ID: 123456784, Title: Team Meeting7, Description: Discuss project updates and next steps, StartTime: 2024-05-19T22:00:00Z, EndTime: 2024-05-18T23:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com] ID: 1, Title: Team Meeting8, Description: Discuss project updates and next steps, StartTime: 2024-05-19T18:00:00Z, EndTime: 2024-05-18T23:00:00Z, Location: Conference Room A, Attendees: [user1@example.com user2@example.com user3@example.com] ID: 2, Title: Go to sleep, Description: Discuss project updates and next steps, StartTime: 2024-05-19T18:10:00Z, EndTime: 2024-05-18T23:00:00Z, Location: Conference Room B, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 [::1]:48206 <nil>}"}
+{"message":"GET//events_for_week?startOfWeek=2024-05-18&endOfWeek=2024-05-25/[::1]:48206/970.763µs"}
+{"message":"Scheduler task start"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Waiting for messages in queue: calendar_events"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Scheduler task start"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Storage is set"}
+{"message":"Waiting for messages in queue: calendar_events"}
+{"message":"Storage is set"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"Error fetching events: sql: expected 6 destination arguments in Scan, not 4"}
+{"message":"Scheduler task start"}
+{"message":"Error fetching events: sql: expected 6 destination arguments in Scan, not 4"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Waiting for messages in queue: calendar_events"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Scheduler task start"}
+{"message":"Error fetching events: sql: expected 6 destination arguments in Scan, not 7"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Waiting for messages in queue: calendar_events"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Scheduler task start"}
+{"message":"Error fetching events: sql: Scan error on column index 5, name \"attendees\": unsupported Scan, storing driver.Value type []uint8 into type *[]string"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Storage is set"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Waiting for messages in queue: calendar_events"}
+{"message":"Storage is set"}
+{"message":"Scheduler task start"}
+{"message":"Scheduler task start"}
+{"message":"Scheduler task start"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Waiting for messages in queue: calendar_events"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Scheduler task start"}
+{"message":"Scheduler task start"}
+{"message":"Scheduler task start"}
+{"message":"Scheduler task start"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Waiting for messages in queue: calendar_events"}
+{"message":"Scheduler task start"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Waiting for messages in queue: calendar_events"}
+{"message":"Scheduler task start"}
+{"message":"Error fetching events: pq: column \"notified\" does not exist"}
+{"message":"Scheduler task start"}
+{"message":"Error fetching events: pq: column \"notified\" does not exist"}
+{"message":"Scheduler task start"}
+{"message":"Error fetching events: pq: column \"notified\" does not exist"}
+{"message":"Event created with ID: {event ID:  15 0 3 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 [::1]:52452 <nil>}"}
+{"message":"POST//create_event/[::1]:52452/6.769648ms"}
+{"message":"Scheduler task start"}
+{"message":"Error fetching events: pq: column \"notified\" does not exist"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Storage is set"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Waiting for messages in queue: calendar_events"}
+{"message":"Storage is set"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Event created with ID: {event ID:  15 0 4 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 [::1]:54912 <nil>}"}
+{"message":"POST//create_event/[::1]:54912/4.428458ms"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Event created with ID: {event ID:  15 0 5 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 [::1]:54912 <nil>}"}
+{"message":"POST//create_event/[::1]:54912/4.869263ms"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Sender configuration is set"}
+{"message":"Message broker is ready"}
+{"message":"Consumer running"}
+{"message":"Waiting for messages in queue: calendar_events"}
+{"message":"Scheduler configuration is set"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Consumer running"}
+{"message":"Waiting for messages in queue: calendar_events"}
+{"message":"Scheduler task start"}
+{"message":"Scheduler configuration is set"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Scheduler task start"}
+{"message":"Scheduler configuration is set"}
+{"message":"Storage is set"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Scheduler task start"}
+{"message":"Sender configuration is set"}
+{"message":"Storage is set"}
+{"message":"Message broker is ready"}
+{"message":"Consumer running"}
+{"message":"Waiting for messages in queue: calendar_events"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Configuration is set"}
+{"message":"Server is running on address: 0.0.0.0:50051"}
+{"message":"Server is running on address: 0.0.0.0:8080"}
+{"message":"Storage is set"}
+{"message":"Storage is set"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Event created with ID: {event ID:  15 0 6 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 [::1]:58510 <nil>}"}
+{"message":"POST//create_event/[::1]:58510/5.283749ms"}
+{"message":"Scheduler task start"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler configuration is set"}
+{"message":"Storage is set"}
+{"message":"Message broker is ready"}
+{"message":"Scheduler running"}
+{"message":"Event created with ID: {event ID:  15 0 7 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 [::1]:58510 <nil>}"}
+{"message":"POST//create_event/[::1]:58510/3.8037ms"}
+{"message":"Scheduler task start"}
+{"message":"Events has been fetched"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"message":"Scheduler task start"}
+{"message":"No new events to notify"}
+{"level":"info","time":"2024-05-24T10:16:39.463+0300","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-24T10:16:39.474+0300","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-24T10:16:39.481+0300","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-24T10:16:39.481+0300","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-25T06:30:06.826Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T06:30:06.828Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T06:30:06.838Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T06:30:06.839Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T06:30:06.839Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T06:30:06.841Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"fatal","time":"2024-05-25T06:30:06.841Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:12:37.725Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:12:37.726Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:12:37.833Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:12:37.833Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:12:37.833Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:12:37.833Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:12:54.890Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:12:54.890Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:12:54.891Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:12:54.891Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:12:54.891Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:12:54.891Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:12:54.977Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:12:54.978Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:13:39.281Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:13:39.282Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:13:39.282Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:13:39.282Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"fatal","time":"2024-05-25T07:13:39.282Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:13:39.301Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T07:13:39.302Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:13:39.304Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"fatal","time":"2024-05-25T07:13:39.304Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:22:00.792Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T07:22:00.792Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:22:00.793Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"fatal","time":"2024-05-25T07:22:00.793Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:23:50.809Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:23:50.810Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:23:50.846Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:23:50.847Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:23:51.023Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:23:51.023Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:23:51.023Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:23:51.024Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:24:35.270Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:24:35.270Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:24:35.271Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:24:35.271Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:24:35.298Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:24:35.300Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:24:35.304Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:24:35.306Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:32:04.037Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:32:04.038Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:32:04.088Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:32:04.089Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:32:04.095Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:32:04.095Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:32:04.095Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:32:04.096Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:33:48.167Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:33:48.167Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:33:48.167Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:33:48.167Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:33:48.372Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:33:48.373Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:33:48.374Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:33:48.375Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:35:21.527Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:35:21.528Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:35:21.530Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T07:35:21.531Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:35:21.531Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:35:21.531Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:35:21.532Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:35:21.532Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:40:31.757Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:40:31.758Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:40:31.759Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:40:31.759Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:40:31.759Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:40:31.760Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:40:31.892Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:40:31.893Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:41:03.951Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:41:03.952Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:41:03.982Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:41:03.984Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:41:03.984Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:41:03.984Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:41:03.985Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:41:03.986Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:42:29.339Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T07:42:29.341Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:42:29.342Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:42:29.342Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-25T07:42:29.345Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T07:42:29.348Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T07:42:29.353Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T07:42:29.354Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T07:42:29.355Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T07:42:29.360Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T07:42:29.360Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-25T07:42:29.360Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T07:42:29.360Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-25T07:42:29.360Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-25T07:42:59.360Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:42:59.361Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:43:29.361Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:43:29.362Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:43:59.360Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:43:59.361Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:44:29.361Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:44:29.362Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:44:59.360Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:44:59.361Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:45:29.360Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:45:29.360Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:45:59.360Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:45:59.360Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:46:29.361Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:46:29.361Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:46:59.361Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:46:59.361Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:47:29.360Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:47:29.361Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:47:59.360Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:47:59.361Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:51:58.286Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:51:58.287Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:51:58.476Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:51:58.477Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:51:58.477Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:51:58.477Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:51:58.477Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:51:58.478Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:54:51.444Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:54:51.445Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:54:51.446Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:54:51.446Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:54:51.446Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:54:51.447Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:54:51.500Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:54:51.501Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:55:59.794Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T07:55:59.795Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T07:55:59.796Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:55:59.796Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-25T07:55:59.796Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:55:59.808Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T07:55:59.814Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T07:55:59.815Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T07:55:59.816Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"error","time":"2024-05-25T07:55:59.923Z","caller":"logger/logger.go:79","message":"Failed to connect to RabitMQ: dial tcp: lookup rabitmq on 127.0.0.11:53: no such host"}
+{"level":"error","time":"2024-05-25T07:55:59.923Z","caller":"logger/logger.go:79","message":"Failed to initilize message broker: dial tcp: lookup rabitmq on 127.0.0.11:53: no such host"}
+{"level":"info","time":"2024-05-25T07:55:59.923Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T07:55:59.923Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"error","time":"2024-05-25T07:55:59.934Z","caller":"logger/logger.go:79","message":"Failed to connect to RabitMQ: dial tcp: lookup rabitmq on 127.0.0.11:53: no such host"}
+{"level":"error","time":"2024-05-25T07:55:59.934Z","caller":"logger/logger.go:79","message":"Failed to initilize message broker: dial tcp: lookup rabitmq on 127.0.0.11:53: no such host"}
+{"level":"info","time":"2024-05-25T07:55:59.934Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T07:55:59.934Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-25T07:56:49.888Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T07:56:49.888Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T07:56:49.893Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T07:56:49.893Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"error","time":"2024-05-25T07:56:49.894Z","caller":"logger/logger.go:79","message":"Failed to connect to RabitMQ: dial tcp [::1]:5672: connect: connection refused"}
+{"level":"error","time":"2024-05-25T07:56:49.894Z","caller":"logger/logger.go:79","message":"Failed to connect to RabitMQ: dial tcp [::1]:5672: connect: connection refused"}
+{"level":"error","time":"2024-05-25T07:56:49.894Z","caller":"logger/logger.go:79","message":"Failed to initilize message broker: dial tcp [::1]:5672: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:56:49.894Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"error","time":"2024-05-25T07:56:49.894Z","caller":"logger/logger.go:79","message":"Failed to initilize message broker: dial tcp [::1]:5672: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:56:49.894Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-25T07:56:49.894Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T07:56:49.894Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-25T07:56:49.908Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:56:49.909Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:56:49.909Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-25T07:56:49.913Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T07:56:49.914Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T07:57:19.895Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:57:19.896Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:57:49.894Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:57:49.895Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:58:19.895Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:58:19.895Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:58:49.895Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:58:49.895Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:59:19.894Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T07:59:19.895Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T07:59:56.078Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:59:56.079Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:59:56.122Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"fatal","time":"2024-05-25T07:59:56.122Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T07:59:56.311Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T07:59:56.311Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T07:59:56.312Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"fatal","time":"2024-05-25T07:59:56.312Z","caller":"logger/logger.go:84","message":"Connection error failed to ping database: dial tcp [::1]:5432: connect: connection refused"}
+{"level":"info","time":"2024-05-25T08:01:48.239Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T08:01:48.241Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T08:01:48.241Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T08:01:48.241Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-25T08:01:48.245Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:01:48.247Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:01:48.249Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:01:48.253Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:01:48.253Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-25T08:01:48.267Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T08:01:48.273Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:01:48.277Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:01:48.277Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-25T08:01:48.277Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-25T08:02:18.254Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:02:18.255Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:02:48.254Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:02:48.255Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:03:18.254Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:03:18.254Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:03:48.254Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:03:48.254Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:04:18.254Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:04:18.255Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:04:48.254Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:04:48.254Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:05:18.254Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:05:18.255Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:05:48.254Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:05:48.255Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:06:59.534Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T08:06:59.535Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T08:06:59.535Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-25T08:06:59.542Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:06:59.543Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:06:59.704Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T08:06:59.710Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T08:06:59.711Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"error","time":"2024-05-25T08:06:59.712Z","caller":"logger/logger.go:79","message":"Failed to connect to RabitMQ: dial tcp 172.27.0.3:5672: connect: connection refused"}
+{"level":"error","time":"2024-05-25T08:06:59.712Z","caller":"logger/logger.go:79","message":"Failed to initilize message broker: dial tcp 172.27.0.3:5672: connect: connection refused"}
+{"level":"info","time":"2024-05-25T08:06:59.712Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:06:59.712Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-25T08:06:59.718Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"error","time":"2024-05-25T08:06:59.719Z","caller":"logger/logger.go:79","message":"Failed to connect to RabitMQ: dial tcp 172.27.0.3:5672: connect: connection refused"}
+{"level":"error","time":"2024-05-25T08:06:59.719Z","caller":"logger/logger.go:79","message":"Failed to initilize message broker: dial tcp 172.27.0.3:5672: connect: connection refused"}
+{"level":"info","time":"2024-05-25T08:06:59.719Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:06:59.719Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-25T08:08:22.314Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T08:08:22.320Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:08:22.327Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:08:22.327Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-25T08:08:22.426Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T08:08:22.426Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T08:08:22.426Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T08:08:22.427Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-25T08:08:22.432Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:08:22.434Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:08:22.436Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:08:22.440Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:08:22.440Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-25T08:08:22.440Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-25T08:08:52.327Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:08:52.328Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:09:22.327Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:09:22.328Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:09:52.327Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:09:52.328Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:10:22.327Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:10:22.328Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:10:52.327Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:10:52.327Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:11:22.327Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:11:22.328Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:12:25.341Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T08:12:25.343Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T08:12:25.348Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:12:25.351Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:12:25.351Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T08:12:25.352Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-25T08:12:25.352Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T08:12:25.353Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:12:25.353Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-25T08:12:25.354Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-25T08:12:25.356Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:12:25.356Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-25T08:12:25.360Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:12:25.361Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:14:15.996Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T08:14:15.996Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T08:14:15.997Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-25T08:14:15.998Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T08:14:16.003Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:14:16.004Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:14:16.005Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:14:16.008Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:14:16.008Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-25T08:14:16.044Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T08:14:16.049Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:14:16.052Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:14:16.052Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-25T08:14:16.053Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-25T08:14:46.008Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:14:46.010Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:15:16.008Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:15:16.009Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:15:46.009Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:15:46.009Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:16:08.872Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T08:16:08.872Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T08:16:08.878Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:16:08.878Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:16:08.882Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:16:08.882Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-25T08:16:08.882Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:16:08.882Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-25T08:16:08.882Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-25T08:16:08.928Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T08:16:08.928Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T08:16:08.928Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-25T08:16:08.935Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:16:08.937Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:16:38.883Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:16:38.884Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:29:17.019Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T08:29:17.019Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T08:29:17.019Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-25T08:29:17.025Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:29:17.026Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:29:17.150Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T08:29:17.151Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T08:29:17.157Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:29:17.157Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:29:17.161Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:29:17.161Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-25T08:29:17.161Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:29:17.161Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-25T08:29:17.161Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-25T08:29:47.162Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:29:47.163Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:30:17.162Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:30:17.162Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"debug","time":"2024-05-25T08:30:27.462Z","caller":"logger/logger.go:64","message":"Event created with ID: {event ID:  15 0 1 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 172.27.0.1:55340 <nil>}"}
+{"level":"info","time":"2024-05-25T08:30:27.462Z","caller":"logger/logger.go:69","message":"POST//create_event/172.27.0.1:55340/4.48469ms"}
+{"level":"info","time":"2024-05-25T08:30:47.162Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:30:47.162Z","caller":"logger/logger.go:69","message":"Events has been fetched"}
+{"level":"info","time":"2024-05-25T08:31:17.162Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:31:17.162Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:31:47.161Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:31:47.162Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:32:17.161Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:32:17.162Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:32:47.162Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:32:47.162Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T08:33:42.054Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T08:33:42.061Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:33:42.064Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:33:42.064Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-25T08:33:42.065Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-25T08:33:42.126Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T08:33:42.126Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T08:33:42.126Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-25T08:33:42.126Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T08:33:42.132Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:33:42.133Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:33:42.134Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T08:33:42.137Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T08:33:42.137Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"debug","time":"2024-05-25T08:33:46.148Z","caller":"logger/logger.go:64","message":"Events for week: [] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 172.27.0.1:56648 <nil>}"}
+{"level":"info","time":"2024-05-25T08:33:46.148Z","caller":"logger/logger.go:69","message":"GET//events_for_week?startOfWeek=2024-05-18&endOfWeek=2024-05-25/172.27.0.1:56648/1.119471ms"}
+{"level":"debug","time":"2024-05-25T08:34:05.210Z","caller":"logger/logger.go:64","message":"Events for week: [ID: 1, Title: Go to sleep, Description: Discuss project updates and next steps, StartTime: 2024-05-25T08:00:00Z, EndTime: 2024-05-25T09:00:00Z, Location: Conference Room B, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 172.27.0.1:56648 <nil>}"}
+{"level":"info","time":"2024-05-25T08:34:05.211Z","caller":"logger/logger.go:69","message":"GET//events_for_week?startOfWeek=2024-05-25&endOfWeek=2024-05-26/172.27.0.1:56648/371.171µs"}
+{"level":"info","time":"2024-05-25T08:34:12.138Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-25T08:34:12.138Z","caller":"logger/logger.go:69","message":"No new events to notify"}
