@@ -3,20 +3,33 @@ package main
 import (
 	"flag"
 	"fmt"
+	"net/http"
 	"os"
 
 	"calendar_service/application/configs"
 	"calendar_service/application/queues"
 	"calendar_service/frameworks/logger"
 
+	"github.com/prometheus/client_golang/prometheus"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
+
 	"go.uber.org/zap"
 	"gopkg.in/yaml.v2"
 )
 
-var configPath string
+var (
+	configPath  string
+	messageSent = prometheus.NewCounter(
+		prometheus.CounterOpts{
+			Name: "message_sent_total",
+			Help: "Total number of messages sent",
+		},
+	)
+)
 
 func init() {
 	flag.StringVar(&configPath, "config", "", "Path to config file")
+	prometheus.MustRegister(messageSent)
 }
 
 func main() {
@@ -48,8 +61,13 @@ func main() {
 	}
 
 	go func() {
+		http.Handle("/metrics", promhttp.Handler())
+		http.ListenAndServe(":9002", nil)
+	}()
+
+	go func() {
 		queues.Init(&config)
-		queues.Consume()
+		queues.Consume(messageSent)
 	}()
 
 	select {}

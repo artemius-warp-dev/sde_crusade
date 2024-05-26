@@ -2,11 +2,12 @@ package webservers
 
 import (
 	"calendar_service/application/configs"
+	grpc_impl "calendar_service/application/services/api/grpc"
 	"calendar_service/frameworks/logger"
 	"context"
 	"net"
 
-	grpc_impl "calendar_service/application/services/api/grpc"
+	//"github.com/grpc-ecosystem/go-grpc-prometheus"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
@@ -33,6 +34,10 @@ func Serve(config *configs.ServerConfig) {
 	}
 
 	grpc_impl.Config(&config.Storage)
+
+	// Register the Prometheus metrics handler
+	// grpcMetrics := grpc_prometheus.NewServerMetrics()
+	// grpcMetrics.InitializeMetrics(nil)
 
 	// Create a new gRPC server
 	srv := grpc.NewServer(
