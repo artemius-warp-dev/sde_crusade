@@ -1224,3 +1224,1543 @@
 {"level":"info","time":"2024-05-25T08:34:05.211Z","caller":"logger/logger.go:69","message":"GET//events_for_week?startOfWeek=2024-05-25&endOfWeek=2024-05-26/172.27.0.1:56648/371.171µs"}
 {"level":"info","time":"2024-05-25T08:34:12.138Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
 {"level":"info","time":"2024-05-25T08:34:12.138Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-25T19:59:18.698Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-25T19:59:18.698Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-25T19:59:18.704Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T19:59:18.704Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T19:59:18.707Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T19:59:18.708Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-25T19:59:18.708Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-25T19:59:18.708Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-25T19:59:18.708Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-25T19:59:18.726Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-25T19:59:18.728Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-25T19:59:18.729Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-25T19:59:18.738Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-25T19:59:18.742Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:38:18.905Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T12:38:18.909Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:38:18.914Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T12:38:18.914Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T12:39:09.385Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T12:39:09.391Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:39:09.401Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T12:39:09.401Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T12:39:39.402Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:39:39.407Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:40:09.402Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:40:09.403Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:40:39.402Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:40:39.403Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:41:09.402Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:41:09.403Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:41:39.402Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:41:39.403Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:42:09.402Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:42:09.403Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:42:39.402Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:42:39.403Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:43:09.402Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:43:09.403Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:43:39.402Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:43:39.403Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:43:54.871Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T12:43:54.873Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T12:43:54.873Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T12:43:54.873Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T12:43:54.875Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:43:54.879Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:43:54.884Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:43:54.895Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T12:43:54.895Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T12:43:54.899Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T12:44:09.402Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:44:09.403Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:46:55.357Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T12:46:55.364Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T12:46:55.364Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:46:55.375Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T12:46:55.375Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T12:46:55.375Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T12:46:55.376Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:46:55.384Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T12:46:55.384Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T12:46:55.489Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T12:46:55.489Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T12:46:55.489Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T12:46:55.502Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:46:55.508Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:52:12.054Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T12:52:12.060Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:52:12.063Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T12:52:12.063Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T12:52:12.174Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T12:52:12.175Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T12:52:12.175Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T12:52:12.176Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T12:52:12.182Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:52:12.188Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T12:52:12.189Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T12:52:12.189Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:52:12.189Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T12:52:12.193Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T12:52:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:52:42.066Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:53:12.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:53:12.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:53:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:53:42.064Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:54:12.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:54:12.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:54:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:54:42.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:55:12.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:55:12.064Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:55:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:55:42.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:56:12.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:56:12.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:56:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:56:42.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:57:12.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:57:12.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:57:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:57:42.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:58:12.063Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:58:12.064Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:58:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:58:42.064Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:59:12.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:59:12.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T12:59:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T12:59:42.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:00:12.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:00:12.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:00:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:00:42.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:01:12.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:01:12.064Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:01:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:01:42.064Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:02:12.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:02:12.064Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:02:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:02:42.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:03:12.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:03:12.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:03:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:03:42.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:04:12.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:04:12.064Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:04:42.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:04:42.064Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:05:12.064Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:05:12.065Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:05:43.519Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T13:05:43.524Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:05:43.531Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:05:43.531Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T13:05:43.644Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T13:05:43.646Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T13:05:43.646Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T13:05:43.647Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T13:05:43.654Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:05:43.656Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:05:43.661Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:05:43.679Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:05:43.679Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T13:05:43.680Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T13:06:13.532Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:06:13.538Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:06:43.532Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:06:43.533Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:07:13.532Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:07:13.532Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:07:43.533Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:07:43.533Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:08:13.532Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:08:13.533Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:08:43.532Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:08:43.533Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:09:36.270Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T13:09:36.276Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:09:36.281Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:09:36.281Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T13:09:36.281Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T13:09:36.296Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T13:09:36.305Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:09:36.306Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T13:09:36.306Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T13:09:36.306Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T13:09:36.319Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:09:36.320Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:09:36.320Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:09:36.320Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T13:10:06.320Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:10:06.323Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:10:36.320Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:10:36.321Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:11:06.321Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:11:06.321Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:11:36.320Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:11:36.321Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:12:06.320Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:12:06.321Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:12:36.321Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:12:36.322Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:18:04.208Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T13:18:04.215Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:18:04.219Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:18:04.219Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T13:18:04.219Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T13:18:04.244Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T13:18:04.252Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:18:04.256Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T13:18:04.257Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T13:18:04.257Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T13:18:04.262Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:18:04.262Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T13:18:04.266Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:18:04.271Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:18:34.263Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:18:34.265Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:19:04.263Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:19:04.264Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:19:34.263Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:19:34.263Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:20:04.263Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:20:04.263Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:20:34.263Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:20:34.263Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:21:04.262Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:21:04.263Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:21:34.263Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:21:34.264Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:22:04.263Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:22:04.264Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:22:34.263Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:22:34.263Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:23:04.262Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:23:04.263Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:23:34.263Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:23:34.264Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:25:58.139Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T13:25:58.141Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T13:25:58.144Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T13:25:58.145Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T13:25:58.146Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:25:58.152Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:25:58.152Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T13:25:58.152Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T13:25:58.152Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:25:58.153Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:25:58.219Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T13:25:58.225Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:25:58.237Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:25:58.237Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T13:26:28.237Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:26:28.239Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:26:58.237Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:26:58.238Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:27:28.238Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:27:28.238Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:27:58.238Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:27:58.238Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:28:28.237Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:28:28.238Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:28:58.237Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:28:58.238Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:29:28.237Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:29:28.238Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:29:58.237Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:29:58.238Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:30:30.673Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T13:30:30.673Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T13:30:30.673Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T13:30:30.673Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T13:30:30.678Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T13:30:30.681Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:30:30.684Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:30:30.686Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:30:30.686Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:30:30.717Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:30:30.717Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T13:30:30.718Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:30:30.718Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T13:30:30.721Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T13:31:00.717Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:31:00.720Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:31:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:31:30.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:32:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:32:00.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:32:30.717Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:32:30.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:33:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:33:00.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:33:30.717Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:33:30.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:34:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:34:00.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:34:30.717Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:34:30.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:35:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:35:00.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:35:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:35:30.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:36:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:36:00.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:36:30.717Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:36:30.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:37:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:37:00.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:37:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:37:30.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:38:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:38:00.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:38:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:38:30.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:39:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:39:00.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:39:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:39:30.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:40:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:40:00.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:40:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:40:30.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:41:00.717Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:41:00.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:41:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:41:30.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:42:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:42:00.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:42:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:42:30.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:43:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:43:00.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:43:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:43:30.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:44:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:44:00.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:44:30.717Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:44:30.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:45:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:45:00.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:45:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:45:30.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:46:00.717Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:46:00.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:46:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:46:30.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:47:00.717Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:47:00.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:47:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:47:30.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:48:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:48:00.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:48:30.717Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:48:30.718Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:49:00.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:49:00.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:49:30.718Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:49:30.719Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:49:58.279Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T13:49:58.281Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T13:49:58.281Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T13:49:58.281Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T13:49:58.292Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:49:58.298Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:49:58.298Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:49:58.298Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T13:49:58.300Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:49:58.382Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T13:49:58.395Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:49:58.411Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:49:58.411Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T13:49:58.411Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T13:50:28.299Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:50:28.301Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:50:58.298Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:50:58.299Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:51:28.299Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:51:28.300Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:51:58.299Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:51:58.300Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:52:28.299Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:52:28.299Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:52:58.298Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:52:58.300Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:53:28.299Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:53:28.299Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:53:58.299Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:53:58.300Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:54:28.299Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:54:28.299Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:54:58.299Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:54:58.300Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:55:28.299Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:55:28.300Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:55:58.298Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:55:58.299Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:56:28.299Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:56:28.300Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:57:02.584Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T13:57:02.594Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:57:02.615Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:57:02.615Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T13:57:02.695Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T13:57:02.708Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:57:02.722Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T13:57:02.722Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T13:57:02.723Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T13:57:02.812Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T13:57:02.812Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T13:57:02.813Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T13:57:02.846Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:57:02.855Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T13:57:32.616Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:57:32.622Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:58:02.617Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:58:02.617Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:58:32.616Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:58:32.617Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:59:02.615Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:59:02.616Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T13:59:32.616Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T13:59:32.617Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:00:02.616Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:00:02.616Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:00:32.616Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:00:32.616Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:01:02.616Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:01:02.617Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:01:32.615Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:01:32.616Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:02:02.616Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:02:02.616Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:02:32.616Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:02:32.617Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:02:58.303Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T14:02:58.311Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T14:02:58.313Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:02:58.313Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T14:02:58.314Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T14:02:58.315Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T14:02:58.334Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T14:02:58.335Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T14:02:58.336Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T14:02:58.343Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:02:58.352Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:02:58.360Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:02:58.374Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T14:02:58.374Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T14:03:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:03:28.377Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:03:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:03:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:04:28.374Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:04:28.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:04:58.374Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:04:58.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:05:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:05:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:05:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:05:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:06:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:06:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:06:58.374Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:06:58.374Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:07:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:07:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:07:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:07:58.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:08:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:08:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:08:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:08:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:09:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:09:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:09:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:09:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:10:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:10:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:10:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:10:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:11:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:11:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:11:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:11:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:12:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:12:28.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:12:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:12:58.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:13:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:13:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:13:58.374Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:13:58.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:14:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:14:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:14:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:14:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:15:28.374Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:15:28.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:15:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:15:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:16:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:16:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:16:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:16:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:17:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:17:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:17:58.374Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:17:58.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:18:28.374Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:18:28.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:18:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:18:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:19:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:19:28.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:19:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:19:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:20:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:20:28.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:20:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:20:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:21:28.374Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:21:28.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:21:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:21:58.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:22:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:22:28.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:22:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:22:58.378Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:23:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:23:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:23:58.374Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:23:58.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:24:28.374Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:24:28.375Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:24:58.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:24:58.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:25:28.375Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:25:28.376Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:26:18.664Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T14:26:18.674Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:26:18.687Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T14:26:18.687Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T14:26:18.765Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T14:26:18.765Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T14:26:18.765Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T14:26:18.786Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:26:18.796Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:26:18.846Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T14:26:18.869Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:26:18.882Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T14:26:18.882Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T14:26:18.883Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T14:32:28.577Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T14:32:28.589Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:32:28.603Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T14:32:28.603Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T14:32:28.604Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T14:32:28.629Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T14:32:28.631Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T14:32:28.633Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T14:32:28.640Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T14:32:28.657Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:32:28.683Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:32:28.695Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:32:28.721Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T14:32:28.722Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T14:35:47.915Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T14:35:47.925Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:35:47.938Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T14:35:47.938Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T14:35:47.948Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T14:35:47.948Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T14:35:47.949Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T14:35:47.963Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T14:35:47.983Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:35:47.983Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:35:47.990Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T14:35:48.033Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T14:35:48.033Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T14:35:48.034Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T14:36:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:36:17.942Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:36:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:36:47.942Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:37:17.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:37:17.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:37:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:37:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:38:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:38:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:38:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:38:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:39:17.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:39:17.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:39:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:39:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:40:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:40:17.942Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:40:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:40:47.942Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:41:17.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:41:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:41:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:41:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:42:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:42:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:42:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:42:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:43:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:43:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:43:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:43:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:44:17.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:44:17.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:44:47.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:44:47.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:45:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:45:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:45:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:45:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:46:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:46:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:46:47.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:46:47.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:47:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:47:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:47:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:47:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:48:17.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:48:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:48:47.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:48:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:49:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:49:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:49:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:49:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:50:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:50:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:50:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:50:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:51:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:51:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:51:47.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:51:47.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:52:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:52:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:52:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:52:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:53:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:53:17.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:53:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:53:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:54:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:54:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:54:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:54:47.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:55:17.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:55:17.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:55:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:55:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:56:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:56:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:56:47.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:56:47.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:57:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:57:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:57:47.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:57:47.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:58:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:58:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:58:47.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:58:47.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:59:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:59:17.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T14:59:47.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T14:59:47.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:00:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:00:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:00:47.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:00:47.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:01:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:01:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:01:47.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:01:47.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:02:17.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:02:17.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:02:47.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:02:47.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:03:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:03:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:03:47.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:03:47.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:04:17.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:04:17.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:04:47.939Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:04:47.940Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:05:17.940Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:05:17.941Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:11:59.703Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:11:59.710Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:12:29.284Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:12:29.285Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:14:50.361Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T15:14:50.372Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:14:50.386Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:14:50.386Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T15:14:50.387Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T15:14:50.403Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T15:14:50.418Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:14:50.435Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:14:50.435Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T15:14:50.549Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T15:14:50.549Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T15:14:50.550Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T15:14:50.565Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:14:50.568Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:18:34.578Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T15:18:34.588Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:18:34.594Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:18:34.594Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T15:18:34.707Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T15:18:34.716Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:18:34.724Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:18:34.724Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T15:18:34.725Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T15:18:34.727Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T15:18:34.727Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T15:18:34.727Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T15:18:34.747Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:18:34.750Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:20:49.933Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T15:20:49.943Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:20:49.950Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:20:49.950Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T15:20:50.066Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T15:20:50.073Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T15:20:50.074Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T15:20:50.076Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T15:20:50.077Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:20:50.116Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:20:50.126Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:20:50.126Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T15:20:50.128Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T15:20:50.141Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:21:19.950Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:21:19.953Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:21:49.951Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:21:49.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:22:19.950Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:22:19.951Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:22:49.951Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:22:49.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:23:19.950Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:23:19.951Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:23:49.951Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:23:49.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:24:19.951Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:24:19.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:24:49.951Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:24:49.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:25:19.951Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:25:19.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:25:49.950Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:25:49.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:26:19.951Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:26:19.951Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:37:07.962Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T15:37:07.970Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:37:07.979Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:37:07.980Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T15:37:07.981Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T15:37:08.057Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T15:37:08.068Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:37:08.080Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:37:08.080Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T15:37:08.122Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T15:37:08.123Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T15:37:08.127Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T15:37:08.156Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:37:08.165Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:37:38.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:37:38.085Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:38:08.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:38:08.082Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:38:38.080Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:38:38.081Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:39:08.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:39:08.081Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:39:38.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:39:38.082Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:40:08.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:40:08.082Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:40:38.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:40:38.082Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:41:08.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:41:08.082Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:41:38.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:41:38.082Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:42:08.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:42:08.082Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:42:38.080Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:42:38.081Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:43:08.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:43:08.082Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:43:38.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:43:38.082Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:44:08.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:44:08.082Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:44:38.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:44:38.082Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:45:08.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:45:08.081Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:45:38.081Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:45:38.082Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:46:09.123Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:46:09.124Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:46:39.123Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:46:39.124Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:47:09.123Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:47:09.124Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:47:54.436Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T15:47:54.452Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:47:54.464Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:47:54.464Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T15:47:54.604Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T15:47:54.603Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T15:47:54.614Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T15:47:54.615Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T15:47:54.632Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:47:54.638Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:47:54.642Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:47:54.649Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:47:54.650Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T15:47:54.651Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T15:48:24.465Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:48:24.483Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:48:54.465Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:48:54.466Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:49:24.465Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:49:24.466Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:49:54.465Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:49:54.467Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:50:24.465Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:50:24.466Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:50:54.465Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:50:54.465Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:51:24.465Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:51:24.466Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:51:54.465Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:51:54.465Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:52:24.465Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:52:24.466Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:52:54.465Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:52:54.466Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:53:28.530Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T15:53:28.540Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:53:28.546Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:53:28.546Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T15:53:28.646Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T15:53:28.647Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T15:53:28.647Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T15:53:28.648Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T15:53:28.673Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:53:28.680Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:53:28.681Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:53:28.703Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:53:28.703Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T15:53:28.708Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T15:55:42.715Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T15:55:42.724Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:55:42.733Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:55:42.733Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T15:55:42.734Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T15:55:42.851Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T15:55:42.863Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:55:42.884Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T15:55:42.884Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T15:55:42.960Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T15:55:42.960Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T15:55:42.961Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T15:55:42.982Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:55:42.994Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T15:56:12.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:56:12.887Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:56:42.884Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:56:42.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:57:12.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:57:12.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"debug","time":"2024-05-26T15:57:28.536Z","caller":"logger/logger.go:64","message":"Events for week: [ID: 1, Title: Go to sleep, Description: Discuss project updates and next steps, StartTime: 2024-05-25T08:00:00Z, EndTime: 2024-05-25T09:00:00Z, Location: Conference Room B, Attendees: [user1@example.com user2@example.com user3@example.com]] {method 15 0 GET <nil>} {path 15 0 /events_for_week <nil>} {remote_address 15 0 172.29.0.1:47856 <nil>}"}
+{"level":"info","time":"2024-05-26T15:57:28.536Z","caller":"logger/logger.go:69","message":"GET//events_for_week?startOfWeek=2024-05-25&endOfWeek=2024-05-26/172.29.0.1:47856/1.610618ms"}
+{"level":"error","time":"2024-05-26T15:57:33.921Z","caller":"logger/logger.go:79","message":"Error in createEvent handler{error 26 0  failed to add event: pq: duplicate key value violates unique constraint \"events_pkey\"}"}
+{"level":"info","time":"2024-05-26T15:57:33.921Z","caller":"logger/logger.go:69","message":"POST//create_event/172.29.0.1:47856/4.005084ms"}
+{"level":"info","time":"2024-05-26T15:57:42.886Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:57:42.887Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:58:12.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:58:12.887Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:58:42.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:58:42.886Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:59:12.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:59:12.886Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T15:59:42.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T15:59:42.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:00:12.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:00:12.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:00:42.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:00:42.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:01:12.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:01:12.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:01:42.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:01:42.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:02:12.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:02:12.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:02:42.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:02:42.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:03:12.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:03:12.886Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:03:42.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:03:42.886Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:04:12.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:04:12.886Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:04:42.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:04:42.886Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:05:12.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:05:12.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:05:42.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:05:42.886Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:06:12.884Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:06:12.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:06:42.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:06:42.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:07:12.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:07:12.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:07:42.884Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:07:42.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:08:12.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:08:12.886Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:08:42.885Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:08:42.885Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:09:25.940Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T16:09:25.947Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:09:25.952Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:09:25.952Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T16:09:26.106Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T16:09:26.106Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T16:09:26.106Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T16:09:26.115Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:09:26.117Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:09:26.194Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T16:09:26.203Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:09:26.211Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:09:26.211Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T16:09:26.212Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T16:09:55.953Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:09:55.955Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:10:25.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:10:25.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:10:55.953Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:10:55.953Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:11:25.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:11:25.953Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:11:55.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:11:55.953Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:12:25.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:12:25.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:12:55.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:12:55.953Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:13:25.953Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:13:25.953Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:13:55.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:13:55.953Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:14:25.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:14:25.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:14:55.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:14:55.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:15:25.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:15:25.953Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:15:55.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:15:55.953Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:16:25.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:16:25.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:16:55.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:16:55.953Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:17:25.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:17:25.953Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:17:55.953Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:17:55.953Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:18:25.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:18:25.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:18:55.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:18:55.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:19:25.952Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:19:25.952Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:20:26.917Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T16:20:26.923Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:20:26.926Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:20:26.926Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T16:20:27.029Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T16:20:27.036Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T16:20:27.036Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T16:20:27.036Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T16:20:27.037Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:20:27.046Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:20:27.046Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T16:20:27.046Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T16:20:27.056Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:20:27.059Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:20:56.927Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:20:56.928Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:21:26.927Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:21:26.927Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:21:56.927Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:21:56.927Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:22:26.927Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:22:26.927Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:22:56.927Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:22:56.927Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:23:26.927Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:23:26.927Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:23:56.927Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:23:56.928Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:26:02.742Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T16:26:02.742Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T16:26:02.746Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:26:02.746Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:26:02.750Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:26:02.750Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T16:26:02.750Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:26:02.750Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T16:26:02.750Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T16:26:02.763Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T16:26:02.763Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T16:26:02.764Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T16:26:02.771Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:26:02.772Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:26:32.751Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:26:32.752Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:27:02.750Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:27:02.750Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:27:32.750Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:27:32.750Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:28:02.751Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:28:02.751Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:28:32.750Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:28:32.751Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:29:02.751Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:29:02.751Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:29:32.750Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:29:32.751Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:30:02.751Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:30:02.751Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:30:30.598Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T16:30:30.603Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:30:30.607Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:30:30.607Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T16:30:30.607Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T16:30:30.672Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T16:30:30.677Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:30:30.681Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:30:30.681Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T16:30:30.724Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T16:30:30.724Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T16:30:30.724Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T16:30:30.733Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:30:30.734Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:31:00.681Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:31:00.682Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:31:47.900Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T16:31:47.900Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T16:31:47.900Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T16:31:47.917Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:31:47.919Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:31:47.939Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T16:31:47.947Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:31:47.949Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T16:31:47.958Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:31:47.958Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T16:31:47.958Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T16:31:47.959Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:31:47.963Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:31:47.963Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T16:32:17.963Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:32:17.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:32:47.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:32:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:33:17.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:33:17.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:33:47.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:33:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:34:17.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:34:17.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:34:47.963Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:34:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:35:17.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:35:17.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:35:47.963Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:35:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:36:17.963Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:36:17.963Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:36:47.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:36:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:37:17.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:37:17.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:37:47.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:37:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:38:17.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:38:17.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:38:47.963Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:38:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:39:17.963Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:39:17.963Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:39:47.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:39:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:40:17.963Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:40:17.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:40:47.963Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:40:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:41:17.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:41:17.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:41:47.963Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:41:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:42:17.963Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:42:17.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:42:47.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:42:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:43:17.963Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:43:17.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:43:47.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:43:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:44:17.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:44:17.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:44:47.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:44:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:45:17.963Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:45:17.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:45:47.964Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:45:47.964Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:47:08.221Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T16:47:08.225Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:47:08.228Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:47:08.228Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T16:47:08.228Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T16:47:08.240Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T16:47:08.241Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T16:47:08.241Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T16:47:08.241Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T16:47:08.245Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:47:08.252Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:47:08.253Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T16:47:08.256Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:47:08.256Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:47:38.254Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:47:38.255Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:48:08.254Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:48:08.254Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:48:48.876Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T16:48:48.877Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T16:48:48.877Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T16:48:48.877Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T16:48:48.878Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T16:48:48.885Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:48:48.886Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:48:48.886Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:48:48.890Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:48:48.903Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:48:48.903Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T16:48:48.904Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T16:48:48.905Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:48:48.906Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T16:49:18.906Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:49:18.911Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:49:48.906Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:49:48.906Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:50:18.906Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:50:18.907Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:50:48.906Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:50:48.907Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:51:18.906Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:51:18.907Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:51:48.906Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:51:48.907Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:52:18.907Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:52:18.907Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:53:08.710Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T16:53:08.712Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T16:53:08.712Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T16:53:08.712Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T16:53:08.727Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:53:08.733Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:53:08.735Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:53:08.744Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:53:08.744Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T16:53:08.770Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T16:53:08.779Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:53:08.784Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:53:08.784Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T16:53:08.785Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T16:53:38.745Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:53:38.746Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:54:08.744Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:54:08.745Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:54:38.744Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:54:38.745Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:55:08.745Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:55:08.745Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:55:38.744Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:55:38.745Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:56:08.745Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:56:08.745Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:56:38.744Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:56:38.745Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:57:08.744Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:57:08.745Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T16:59:04.560Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T16:59:04.566Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:59:04.572Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:59:04.572Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T16:59:04.572Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T16:59:04.624Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T16:59:04.624Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T16:59:04.625Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T16:59:04.625Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T16:59:04.631Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:59:04.632Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:59:04.633Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T16:59:04.637Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T16:59:04.637Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T16:59:34.637Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T16:59:34.642Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:00:04.637Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:00:04.638Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:00:34.637Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:00:34.638Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:01:04.637Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:01:04.638Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:01:50.924Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T17:01:50.930Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T17:01:50.933Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T17:01:50.934Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T17:01:50.934Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T17:01:51.044Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T17:01:51.048Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T17:01:51.048Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T17:01:51.049Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T17:01:51.053Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T17:01:51.061Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T17:01:51.061Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T17:01:51.076Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T17:01:51.076Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T17:02:21.077Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:02:21.098Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:02:51.076Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:02:51.077Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:03:21.076Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:03:21.077Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:03:51.076Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:03:51.077Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:04:21.077Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:04:21.077Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:04:51.076Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:04:51.077Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:05:21.077Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:05:21.077Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:06:05.650Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T17:06:05.651Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T17:06:05.655Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T17:06:05.657Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T17:06:05.658Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T17:06:05.658Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T17:06:05.659Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T17:06:05.659Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T17:06:05.660Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T17:06:05.672Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T17:06:05.672Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T17:06:05.672Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T17:06:05.679Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T17:06:05.680Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T17:06:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:06:35.663Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:07:05.658Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:07:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:07:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:07:35.660Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:08:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:08:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:08:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:08:35.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:09:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:09:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:09:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:09:35.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:10:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:10:05.660Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:10:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:10:35.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:11:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:11:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:11:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:11:35.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:12:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:12:05.660Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:12:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:12:35.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:13:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:13:05.660Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:13:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:13:35.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:14:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:14:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:14:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:14:35.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:15:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:15:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:15:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:15:35.660Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:16:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:16:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:16:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:16:35.660Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:17:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:17:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:17:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:17:35.660Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:18:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:18:05.660Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:18:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:18:35.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:19:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:19:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:19:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:19:35.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:20:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:20:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:20:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:20:35.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:21:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:21:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:21:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:21:35.660Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:22:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:22:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:22:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:22:35.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:23:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:23:05.661Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:23:35.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:23:35.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:24:05.659Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:24:05.659Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:57:21.174Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T17:57:21.180Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T17:57:21.185Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T17:57:21.185Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T17:57:21.294Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T17:57:21.300Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T17:57:21.303Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T17:57:21.303Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T17:57:21.303Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T17:57:21.354Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T17:57:21.354Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T17:57:21.355Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T17:57:21.366Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T17:57:21.367Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T17:57:51.185Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:57:51.190Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:58:21.186Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:58:21.187Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:58:51.186Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:58:51.186Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T17:59:21.186Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T17:59:21.186Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:00:38.197Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T18:00:38.197Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T18:00:38.201Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:00:38.201Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:00:38.204Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T18:00:38.204Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T18:00:38.204Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T18:00:38.204Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T18:00:38.204Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T18:00:38.215Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T18:00:38.216Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T18:00:38.216Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T18:00:38.221Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:00:38.222Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:01:08.204Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:01:08.206Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:01:38.204Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:01:38.205Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:02:08.205Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:02:08.205Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:02:38.205Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:02:38.205Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:03:17.931Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T18:03:17.937Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:03:17.944Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T18:03:17.944Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T18:03:17.981Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T18:03:17.982Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T18:03:17.983Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T18:03:17.983Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T18:03:17.983Z","caller":"logger/logger.go:69","message":"Starting metric server on :9001"}
+{"level":"info","time":"2024-05-26T18:03:17.989Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:03:17.993Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:03:17.994Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:03:17.996Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T18:03:17.996Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T18:03:17.996Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T18:03:47.944Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:03:47.946Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:04:17.944Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:04:17.945Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:34:07.393Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T18:34:07.399Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:34:07.406Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T18:34:07.406Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T18:34:07.407Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T18:34:07.498Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T18:34:07.498Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T18:34:07.498Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T18:34:07.499Z","caller":"logger/logger.go:69","message":"Starting metric server on :9001"}
+{"level":"info","time":"2024-05-26T18:34:07.499Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T18:34:07.508Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:34:07.516Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:34:07.517Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:34:07.524Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T18:34:07.524Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T18:34:37.525Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:34:37.543Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:35:07.525Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:35:07.525Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"error","time":"2024-05-26T18:35:16.033Z","caller":"logger/logger.go:79","message":"Error in createEvent handler{error 26 0  failed to add event: pq: duplicate key value violates unique constraint \"events_pkey\"}"}
+{"level":"info","time":"2024-05-26T18:35:16.033Z","caller":"logger/logger.go:69","message":"POST//create_event/172.29.0.1:59656/1.81552ms"}
+{"level":"error","time":"2024-05-26T18:35:17.084Z","caller":"logger/logger.go:79","message":"Error in createEvent handler{error 26 0  failed to add event: pq: duplicate key value violates unique constraint \"events_pkey\"}"}
+{"level":"info","time":"2024-05-26T18:35:17.084Z","caller":"logger/logger.go:69","message":"POST//create_event/172.29.0.1:59656/721.174µs"}
+{"level":"error","time":"2024-05-26T18:35:17.963Z","caller":"logger/logger.go:79","message":"Error in createEvent handler{error 26 0  failed to add event: pq: duplicate key value violates unique constraint \"events_pkey\"}"}
+{"level":"info","time":"2024-05-26T18:35:17.963Z","caller":"logger/logger.go:69","message":"POST//create_event/172.29.0.1:59656/969.482µs"}
+{"level":"info","time":"2024-05-26T18:35:37.524Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:35:37.525Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:36:07.524Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:36:07.525Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:36:37.525Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:36:37.525Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:37:07.525Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:37:07.526Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:38:02.962Z","caller":"logger/logger.go:69","message":"Scheduler configuration is set"}
+{"level":"info","time":"2024-05-26T18:38:02.966Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:38:02.968Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T18:38:02.968Z","caller":"logger/logger.go:69","message":"Scheduler running"}
+{"level":"info","time":"2024-05-26T18:38:03.052Z","caller":"logger/logger.go:69","message":"Sender configuration is set"}
+{"level":"info","time":"2024-05-26T18:38:03.053Z","caller":"logger/logger.go:69","message":"Configuration is set"}
+{"level":"info","time":"2024-05-26T18:38:03.053Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:50051"}
+{"level":"info","time":"2024-05-26T18:38:03.053Z","caller":"logger/logger.go:69","message":"Server is running on address: 0.0.0.0:8080"}
+{"level":"info","time":"2024-05-26T18:38:03.053Z","caller":"logger/logger.go:69","message":"Starting metric server on :9001"}
+{"level":"info","time":"2024-05-26T18:38:03.058Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:38:03.062Z","caller":"logger/logger.go:69","message":"Message broker is ready"}
+{"level":"info","time":"2024-05-26T18:38:03.062Z","caller":"logger/logger.go:69","message":"Consumer running"}
+{"level":"info","time":"2024-05-26T18:38:03.062Z","caller":"logger/logger.go:69","message":"Waiting for messages in queue: calendar_events"}
+{"level":"info","time":"2024-05-26T18:38:03.063Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"info","time":"2024-05-26T18:38:03.064Z","caller":"logger/logger.go:69","message":"Storage is set"}
+{"level":"error","time":"2024-05-26T18:38:20.053Z","caller":"logger/logger.go:79","message":"Error in createEvent handler{error 26 0  failed to add event: pq: duplicate key value violates unique constraint \"events_pkey\"}"}
+{"level":"error","time":"2024-05-26T18:38:20.053Z","caller":"logger/logger.go:79","message":"Error400"}
+{"level":"info","time":"2024-05-26T18:38:20.053Z","caller":"logger/logger.go:69","message":"POST//create_event/172.29.0.1:59174/4.357376ms"}
+{"level":"error","time":"2024-05-26T18:38:21.018Z","caller":"logger/logger.go:79","message":"Error in createEvent handler{error 26 0  failed to add event: pq: duplicate key value violates unique constraint \"events_pkey\"}"}
+{"level":"error","time":"2024-05-26T18:38:21.019Z","caller":"logger/logger.go:79","message":"Error400"}
+{"level":"info","time":"2024-05-26T18:38:21.019Z","caller":"logger/logger.go:69","message":"POST//create_event/172.29.0.1:59174/1.288357ms"}
+{"level":"error","time":"2024-05-26T18:38:21.882Z","caller":"logger/logger.go:79","message":"Error in createEvent handler{error 26 0  failed to add event: pq: duplicate key value violates unique constraint \"events_pkey\"}"}
+{"level":"error","time":"2024-05-26T18:38:21.882Z","caller":"logger/logger.go:79","message":"Error400"}
+{"level":"info","time":"2024-05-26T18:38:21.882Z","caller":"logger/logger.go:69","message":"POST//create_event/172.29.0.1:59174/876.015µs"}
+{"level":"error","time":"2024-05-26T18:38:22.874Z","caller":"logger/logger.go:79","message":"Error in createEvent handler{error 26 0  failed to add event: pq: duplicate key value violates unique constraint \"events_pkey\"}"}
+{"level":"error","time":"2024-05-26T18:38:22.874Z","caller":"logger/logger.go:79","message":"Error400"}
+{"level":"info","time":"2024-05-26T18:38:22.874Z","caller":"logger/logger.go:69","message":"POST//create_event/172.29.0.1:59174/714.506µs"}
+{"level":"error","time":"2024-05-26T18:38:24.095Z","caller":"logger/logger.go:79","message":"Error in createEvent handler{error 26 0  failed to add event: pq: duplicate key value violates unique constraint \"events_pkey\"}"}
+{"level":"error","time":"2024-05-26T18:38:24.095Z","caller":"logger/logger.go:79","message":"Error400"}
+{"level":"info","time":"2024-05-26T18:38:24.095Z","caller":"logger/logger.go:69","message":"POST//create_event/172.29.0.1:59174/698.592µs"}
+{"level":"info","time":"2024-05-26T18:38:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:38:32.971Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:39:02.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:39:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:39:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:39:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:40:02.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:40:02.969Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:40:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:40:32.969Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:41:02.970Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:41:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:41:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:41:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:42:02.970Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:42:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:42:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:42:32.969Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:43:02.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:43:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:43:32.970Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:43:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:44:02.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:44:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:44:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:44:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:45:02.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:45:02.969Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:45:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:45:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:46:02.970Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:46:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:46:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:46:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:47:02.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:47:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:47:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:47:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"debug","time":"2024-05-26T18:47:38.175Z","caller":"logger/logger.go:64","message":"Event created with ID: {event ID:  15 0 2 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 172.29.0.1:59174 <nil>}"}
+{"level":"info","time":"2024-05-26T18:47:38.175Z","caller":"logger/logger.go:69","message":"POST//create_event/172.29.0.1:59174/1.901067ms"}
+{"level":"info","time":"2024-05-26T18:48:02.970Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:48:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:48:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:48:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:49:02.970Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:49:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:49:32.970Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:49:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:50:02.970Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:50:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:50:32.970Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:50:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:51:02.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:51:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:51:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:51:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:52:02.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:52:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:52:32.970Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:52:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:53:02.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:53:02.969Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:53:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:53:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:54:02.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:54:02.969Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:54:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:54:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:55:02.970Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:55:02.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:55:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:55:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:56:02.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:56:02.969Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"debug","time":"2024-05-26T18:56:05.663Z","caller":"logger/logger.go:64","message":"Event created with ID: {event ID:  15 0 3 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 172.29.0.1:59174 <nil>}"}
+{"level":"info","time":"2024-05-26T18:56:05.664Z","caller":"logger/logger.go:69","message":"POST//create_event/172.29.0.1:59174/3.929378ms"}
+{"level":"debug","time":"2024-05-26T18:56:18.768Z","caller":"logger/logger.go:64","message":"Event created with ID: {event ID:  15 0 4 <nil>} {method 15 0 POST <nil>} {path 15 0 /create_event <nil>} {remote_address 15 0 172.29.0.1:59174 <nil>}"}
+{"level":"info","time":"2024-05-26T18:56:18.768Z","caller":"logger/logger.go:69","message":"POST//create_event/172.29.0.1:59174/3.910562ms"}
+{"level":"info","time":"2024-05-26T18:56:32.970Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:56:32.970Z","caller":"logger/logger.go:69","message":"Events has been fetched"}
+{"level":"info","time":"2024-05-26T18:57:02.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:57:02.969Z","caller":"logger/logger.go:69","message":"No new events to notify"}
+{"level":"info","time":"2024-05-26T18:57:32.969Z","caller":"logger/logger.go:69","message":"Scheduler task start"}
+{"level":"info","time":"2024-05-26T18:57:32.970Z","caller":"logger/logger.go:69","message":"No new events to notify"}

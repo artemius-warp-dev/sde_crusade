@@ -13,7 +13,9 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
-var configPath string
+var (
+	configPath string
+)
 
 func init() {
 	flag.StringVar(&configPath, "config", "", "Path to config file")
@@ -54,6 +56,8 @@ func main() {
 		logger.Info("Server is running on address: ", http_address)
 		webservers.Server(&config)
 	}()
+
+	go webservers.MetricServer()
 
 	go func() {
 		logger.Info("Server is running on address: ", grpc_address)

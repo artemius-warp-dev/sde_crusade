@@ -6,9 +6,11 @@ import (
 	"calendar_service/frameworks/logger"
 	"encoding/json"
 	"fmt"
+
+	"github.com/prometheus/client_golang/prometheus"
 )
 
-func Sender() {
+func Sender(counter prometheus.Counter) {
 
 	msgs, err := usecases.ConsumeEvents()
 
@@ -32,6 +34,7 @@ func Sender() {
 			if err != nil {
 				logger.Error("Failed to mark events as notified: ", err)
 			}
+			counter.Inc()
 		}
 	}()
 

@@ -6,6 +6,8 @@ import (
 	"calendar_service/application/usecases"
 	"calendar_service/frameworks/logger"
 	queue_impl "calendar_service/frameworks/queue"
+
+	"github.com/prometheus/client_golang/prometheus"
 )
 
 func Init(config *configs.ServerConfig) {
@@ -25,7 +27,7 @@ func Schedule() {
 	logger.Info("Scheduler running")
 }
 
-func Consume() {
-	go jobs.Sender()
+func Consume(counter prometheus.Counter) {
+	go jobs.Sender(counter)
 	logger.Info("Consumer running")
 }
