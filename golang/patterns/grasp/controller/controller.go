@@ -10,5 +10,9 @@ func (c *Controller) HandleEvent(event string) {
 
 func main() {
 	controller := Controller{}
-	controller.HandleEvent("UserClick")
+	workers := []string{"UserClick", "UserNotify", "CatchMessage", "RemoveOldMessages"}
+
+	for _, worker := range workers {
+		controller.HandleEvent(worker)
+	}
 }
