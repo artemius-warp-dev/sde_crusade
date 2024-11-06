@@ -1,0 +1,46 @@
+#+TiTLE: Two pointers memlog
+
+** Overview
+   - The two pointers pattern is a **technique** used to efficiently traverse or manipulate sequential data structures (arrays, linked lists).
+   - Typically involves **two pointers** that:
+     - Traverse the data structure **from different starting points** or in **opposite directions**.
+     - Adjust dynamically based on specific **conditions or criteria**.
+   - Key Benefit: Enables solutions with optimal **time (O(n))** and **space complexity**.
+
+** Use Cases
+   - Commonly used for finding **two elements** in an array that meet certain conditions.
+   - Examples:
+     - **Palindrome Check**: One pointer starts at the beginning, another at the end, moving toward the middle to compare characters.
+     - **Array Reversal**: Two pointers start at opposite ends, swapping values until they meet in the middle.
+     - **Pair with Given Sum** (in a sorted array): One pointer moves from the start, the other from the end to find the target sum.
+
+** Conditions to Identify Two Pointers Applicability
+   - **Linear Structure**: Works best on data that can be traversed linearly (e.g., arrays, linked lists, strings).
+   - **Pair Processing**: Involves analyzing or comparing elements at two different positions.
+   - **Independent Pointer Movement**: Pointers move independently according to specific problem conditions, possibly within the same or different data structures.
+
+** Real-World Example
+   - **Memory Management**:
+     - Two pointers (start and end) indicate available memory blocks.
+     - **Allocation**: Move the start pointer forward to allocate memory.
+     - **Deallocation**: Move the start pointer backward to release memory for future allocations.
+
+** Tricks and Tips
+   - **Check Symmetry**: For palindrome-related problems, moving pointers towards each other takes advantage of symmetry.
+   - **Optimize Time Complexity**: Two pointers often replace nested loops, improving **O(n²)** solutions to **O(n)**.
+   - **Edge Cases**: 
+     - Watch for empty or single-element arrays (may not require pointer movement).
+     - Handle overlapping pointers if required by the problem (e.g., stop when pointers cross).
+
+** Explanation & Tricks Recap
+   - **Efficiency**: By reducing nested loops, the two pointers technique is both time-efficient and simple to implement.
+   - **Symmetry Utilization**: Palindromes and similar problems benefit from two-pointer solutions due to their symmetrical properties.
+   - **Dynamic Movement**: Independent movement of pointers allows for flexible solutions that adapt to problem constraints.
+
+** Additional Notes
+   - The two pointers technique is especially useful when dealing with problems that require **comparing, summing, or swapping pairs** of elements.
+   - The pattern also appears in sorting, partitioning, and sliding window techniques for advanced problem-solving.
+
+** Memorization Tip
+   - Remember: Two pointers often work best when solving problems involving **comparisons or symmetry** in **ordered structures**.
+   - Consider starting with two pointers anytime you’re tasked with finding a **pair** of elements in linear data.
