@@ -1,0 +1,40 @@
+#+TITLE: Fast and Slow Pointers Pattern
+
+** Overview
+- **Fast and Slow Pointers** is a pattern that uses two pointers moving at different speeds to detect cycles or specific elements within data structures.
+- Often used with **linked lists** or **arrays**, where one pointer moves at a slower speed (usually by 1 step) and the other at a faster speed (usually by 2 steps).
+
+** When to Use This Pattern
+- Ideal for problems where:
+  - The input data is **linear** and can be traversed sequentially (e.g., arrays, linked lists).
+  - You need to **detect cycles** or **find intersections**.
+  - You want to find elements at specific positions, such as the middle of a linked list.
+
+** Example Problems
+1. **Middle of Linked List**:
+   - Given a linked list, find the middle node.
+   - Approach: The slow pointer reaches the middle while the fast pointer reaches the end.
+
+2. **Cycle Detection in an Array**:
+   - Detect cycles in an array where elements act as pointers.
+   - Approach: If there’s a cycle, fast and slow pointers will meet.
+
+** Real-World Applications
+1. **Symlink Verification**:
+   - To prevent circular references in symlinks, fast and slow pointers can verify and detect cycles.
+
+2. **Compiling Dependencies**:
+   - Detect cyclic dependencies in object-oriented programming modules to ensure successful compilation.
+
+** Tips and Tricks
+- **Runner Analogy**: Think of two runners on a track—one faster than the other. If the track is circular, the faster one will eventually lap the slower one.
+- **Cycle Detection in Numbers**: For problems like checking if repeatedly summing squares of digits leads to a cycle, use fast and slow pointers to detect the cycle.
+
+** Common Misapplications
+- **Palindrome Check**: This does not require fast and slow pointers; it’s better solved by checking from both ends simultaneously.
+- **Simple Reversals**: Reversing words or sequences can be achieved by two pointers moving at the same speed.
+
+** Strategy Summary
+- **Initialize**: Start both pointers at the beginning of the data structure.
+- **Move**: Advance the slow pointer by 1 step and the fast pointer by 2 steps.
+- **Check for Cycles**: If there’s a cycle, the pointers will eventually meet; otherwise, the fast pointer will reach the end.
