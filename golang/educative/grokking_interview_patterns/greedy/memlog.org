@@ -1,0 +1,45 @@
+#+TITLE: Introduction to Greedy Techniques
+Exploring the Greedy Techniques pattern, its applications, and example problems.
+
+** About the Pattern
+Greedy algorithms tackle **optimization problems** by making the best local choice at each step, aiming to achieve an optimal solution without backtracking. They build a solution incrementally by focusing on maximizing immediate benefits without concern for future implications.
+
+- **Analogy**: Imagine choosing dishes at a buffet one at a time, aiming to fill your plate with the most appealing dishes while moving forward without revisiting past choices.
+- **Caveat**: Greedy algorithms are not always optimal, as they may get stuck in local optima without reaching the global optimal solution.
+
+- **Example**: Prim’s algorithm for **network design** minimizes cable length to connect computers, illustrating how greedy algorithms are used for efficiency.
+
+** Examples
+Problems solved with Greedy Techniques:
+1. **Loading maximum containers in cargo**: Fill cargo with the maximum weight without exceeding capacity (e.g., 90 kg).
+   - *Steps*:
+      - Sort containers by weight in ascending order.
+      - Add containers to cargo until capacity is reached.
+      - Stop once adding the next container would exceed the weight limit.
+2. **Graph Coloring**: Color a graph so adjacent vertices have different colors with the fewest colors used.
+   - *Steps*:
+      - Start with the first vertex and assign the first color.
+      - Move to the next vertex; assign the smallest available color not used by adjacent vertices.
+      - Continue until all vertices are colored.
+
+** Does Your Problem Match This Pattern?
+Criteria for Greedy Techniques:
+- **Use if**:
+   - The problem is an **optimization problem**.
+   - Making local choices **leads to a global solution** without needing to look ahead.
+- **Avoid if**:
+   - Local choices lead to suboptimal solutions.
+   - The problem lacks a clear series of choices with identifiable local optima.
+
+** Real-world Problems
+Applications of Greedy Techniques:
+1. **CPU Scheduling Algorithms**: Greedy algorithms, such as Shortest Job Next, optimize task scheduling by minimizing wait time and maximizing utilization.
+2. **Network Design in LANs**: Prim’s and Kruskal’s algorithms create a Minimum Spanning Tree to connect network switches with minimal cable length, reducing costs and improving performance.
+3. **Friend Recommendations on Social Platforms**: Dijkstra’s algorithm finds shortest paths between users (nodes) in a graph to suggest relevant friend connections.
+
+** Strategy Time!
+Evaluating the applicability of Greedy Techniques to different problems:
+1. **Shortest Job Scheduling**: Suitable. Assign jobs to machines based on job duration to minimize scheduling time.
+2. **Palindromic Substrings in a String**: Not suitable. Use dynamic programming or backtracking to check character pairs.
+3. **Shortest Path Between Intersections**: Suitable. Greedily choose intersections with the lowest distance at each step.
+4. **Cost-effective Optical Fiber Layout**: Suitable. Greedily select connections that minimize cable cost.
