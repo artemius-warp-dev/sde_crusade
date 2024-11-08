@@ -1,0 +1,51 @@
+#+TITLE: Introduction to Backtracking
+
+** Overview
+Backtracking is an algorithmic pattern where potential solutions are incrementally constructed and abandoned if they do not lead to a feasible or optimal solution.
+
+In backtracking, we:
+- Choose a potential solution.
+- Check if it meets constraints.
+- Discard paths that violate constraints by "backtracking" to try different possibilities.
+
+Example Scenario:
+Imagine planning a road trip in a city to visit all desired places with the shortest route, following these constraints:
+- Do not revisit places.
+- End back at the starting point.
+
+The brute-force approach would try all possible routes, which becomes inefficient with many locations. Instead, backtracking allows exploring routes while abandoning those that violate constraints, avoiding exhaustive exploration.
+
+** Key Points
+- **Efficiency**: Avoids unnecessary exploration by discarding paths that won’t yield solutions.
+- **Tree Traversal**: Often visualized as traversing a decision tree.
+- **Applications**: Used in optimization and feasibility problems where constraints must be continuously met.
+
+** Steps in Backtracking Algorithm
+1. **Recursive Call**: Begin at an initial state and make a choice.
+2. **Check Constraints**: If the choice does not satisfy the conditions, discard it.
+3. **Backtrack**: If the choice doesn’t lead to a solution, backtrack to try other choices.
+4. **End Condition**: Stop when all choices have been evaluated or a feasible solution is found.
+
+** Examples of Problems
+1. **Path in Binary Matrix**: Find a path from top-left to bottom-right in a binary maze.
+2. **Knight’s Tour**: Check if a knight can visit every square on an \( n \times n \) chessboard without revisiting any square.
+
+** Identifying Backtracking Problems
+- **Yes**:
+  - Needs full exploration for feasible solutions.
+  - Requires finding the best solution among all feasible ones.
+- **No**:
+  - Violating conditions invalidates other choices, making backtracking unnecessary.
+
+** Real-World Applications
+1. **Syntax Analysis**: Compilers use recursive descent parsing to validate programming syntax.
+2. **Game AI**: AI in games like chess uses backtracking to evaluate different moves.
+3. **Pathfinding**: Finds routes in mazes or networks by trying paths and backtracking at dead-ends.
+
+** Strategy Time!
+| Problem                               | Pattern       |
+|---------------------------------------|---------------|
+| Place queens on a chessboard          | Backtracking  |
+| Flatten binary tree to a linked list  | Other pattern |
+| Maximize revenue from cutting a rod   | Backtracking  |
+| Calculate median from a data stream   | Other pattern |
