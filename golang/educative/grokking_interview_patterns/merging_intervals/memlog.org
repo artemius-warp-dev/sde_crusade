@@ -1,0 +1,48 @@
+#+TITLE: Merge Intervals Pattern
+
+** Overview
+- **Merge Intervals** pattern is used to solve problems involving **overlapping intervals**.
+- An interval is defined by a start and an end point (e.g., `[10, 20]`).
+- This approach helps to:
+  - Merge intersecting intervals.
+  - Insert new intervals into an existing set.
+  - Determine minimum intervals needed to cover a given range.
+- Common applications: **event scheduling**, **resource allocation**, and **time slot consolidation**.
+
+** When to Use This Pattern
+- Ideal for problems where:
+  - The data consists of an **array of intervals**.
+  - You need to handle **overlapping intervals**, such as finding their union, intersection, or gaps.
+
+** Example Problems
+1. **Merge Intervals**:
+   - Problem: Given a sorted list of intervals, merge all overlapping intervals into a consolidated list.
+   - Approach: Sort intervals by start time, then iterate and merge intervals that overlap.
+
+2. **Meeting Rooms**:
+   - Problem: Given an array of meeting time intervals, determine if a person could attend all meetings without overlaps.
+   - Approach: Sort intervals and check for any overlaps between consecutive intervals.
+
+** Real-World Applications
+1. **Display Busy Schedule**:
+   - Display a user’s busy hours in a way that shows general availability without exposing specific meeting times.
+
+2. **Schedule New Meeting**:
+   - Add a new meeting to a user’s schedule without overlapping with existing meetings, ensuring no scheduling conflicts.
+
+3. **Task Scheduling in Operating Systems**:
+   - Schedule tasks in the OS based on task priority and available time slots, merging overlapping slots to optimize processor usage.
+
+** Strategy Summary
+- **Sort Intervals**: First, sort intervals by their start times.
+- **Iterate and Merge**: Loop through intervals, merging those that overlap.
+- **Update**: For each new interval, compare start and end times to decide whether to merge or add as a separate interval.
+
+** Common Misapplications
+- **Finding Closest Points**: Problems requiring distance calculations (e.g., closest point to origin) don’t involve intervals and are not suited for this pattern.
+- **Non-Interval Problems**: Problems without start-end intervals (e.g., finding the longest increasing subsequence) don't apply.
+
+** Tips and Tricks
+- **Sorting Step**: Sorting by start times is essential to ensure that overlapping intervals are processed in sequence.
+- **Gap Identification**: Use this pattern to find gaps between intervals by tracking the end of each interval and comparing it with the start of the next.
+  
