@@ -1,0 +1,45 @@
+#+TITLE: Sliding Window Pattern
+
+** Overview
+- **Sliding Window** is a technique used to process contiguous subsets (subarrays or substrings) of data in an array or string.
+- Involves creating a dynamic window that "slides" across the data structure, adjusting boundaries as needed to process subsets.
+- Efficient for solving problems where the window size may be **fixed** or **variable** and involves **constant time updates**.
+
+** When to Use This Pattern
+- Ideal for problems where:
+  - Data is **contiguous** (e.g., arrays, strings).
+  - You need repeated computations on subsets of elements.
+  - You aim to maintain an **efficient time complexity** (O(1) or low time cost) when the window moves.
+
+** Example Problems
+1. **Maximum Sum Subarray of Size K**:
+   - Problem: Given an integer array and an integer `k`, find the maximum sum of any contiguous subarray of size `k`.
+   - Approach: Sum elements within a window of size `k`, sliding the window to add new elements and remove old ones.
+
+2. **Longest Substring without Repeating Characters**:
+   - Problem: Find the length of the longest substring without repeating characters in a given string.
+   - Approach: Expand and contract the window to ensure no repeated characters, updating the maximum length as you go.
+
+** Real-World Applications
+1. **Telecommunications**:
+   - Maximize the number of users connected to a base station within a **k-millisecond** sliding window.
+
+2. **Video Streaming**:
+   - Calculate the median buffering events over each **one-minute** interval to optimize the user experience.
+
+3. **Social Media Analysis**:
+   - Find the shortest sequence of posts by one user containing all topics of another user’s posts.
+
+** Tips and Tricks
+- **Hallway Analogy**: Imagine looking at paintings through a narrow frame in a long hallway. As you move the frame, new paintings enter the view while others leave—similar to sliding a window across data.
+- **Efficient Update**: Instead of recalculating sums or counts, adjust only for the new data entering the window and the old data leaving it.
+
+** Common Misapplications
+- **Finding the kth Largest Element**: The sliding window approach is not ideal as it requires the entire array to be considered, rather than contiguous subarrays.
+- **Noncontiguous Arrangements**: Problems like placing queens on a chessboard are best solved with other techniques like backtracking.
+
+** Strategy Summary
+- **Initialize**: Define the window size and set up pointers to track the boundaries of the subset.
+- **Move**: Slide the window across the data, adjusting for elements that leave and enter the window.
+- **Update**: Perform computations in constant or minimal time as the window moves, updating results as needed.
+  
