@@ -1,0 +1,49 @@
+#+TITLE: Top K Elements Pattern Summary
+** Overview
+The **Top K Elements** pattern is used to efficiently find the largest, smallest, or most/least frequent elements from an unsorted collection of data. Instead of sorting the entire list (O(n log n)), this pattern leverages a **heap** to keep track of only the k elements we need, improving time complexity to **O(n log k)**.
+
+   - **Data Structure**: Heaps (min-heap for top k largest elements, max-heap for top k smallest elements).
+   - **Complexity**: O(n log k) for finding top K elements in an unsorted list.
+     
+** How the Pattern Works
+   1. Insert the first k elements into the heap.
+      - For largest elements: use a min-heap.
+      - For smallest elements: use a max-heap.
+   2. For each remaining element:
+      - If the new element is larger than the root (min-heap) or smaller than the root (max-heap), replace the root with the new element to maintain the top K elements in the heap.
+   3. Extracting all k elements requires **O(k log k)** time as each element removal reorganizes the heap.
+
+** Example Scenarios
+   - **Sort characters by frequency**
+     - Task: Sort a string based on character frequency.
+     - Strategy: Count frequencies in a hash map, then use a max-heap to order characters by frequency.
+     - Example:
+       | String | "buubble"   |
+       |-------+-------------|
+       | Output | "bbbuule"   |
+
+   - **Connect ropes with minimum cost**
+     - Task: Minimize the cost of connecting ropes, where the cost is the sum of rope lengths.
+     - Strategy: Insert ropes into a min-heap, then iteratively connect the smallest two ropes until one remains.
+     - Example:
+       | Ropes   | 6, 4, 3, 2 |
+       | Cost    | 5 + 9 + 15 = 29 |
+
+** Identifying Problems that Fit the Pattern
+   - **Matches Pattern**:
+     - **Unsorted list**: Analyze unsorted data to extract a subset based on frequency, size, etc.
+     - **Specific subset**: Requires identifying a subset (top k) rather than a single value.
+   - **Does Not Match**:
+     - Input is **already sorted**.
+     - Only a single **extreme value** (k=1) is needed.
+
+** Real-World Applications
+   - **Location-based services**: Finding the closest drivers for a ride-sharing app.
+   - **Financial analysis**: Identifying brokers with the highest transaction volumes.
+   - **Social media**: Determining trending hashtags based on frequency.
+
+** Example Problems Matched to Pattern
+   - Rearrange a string to avoid identical adjacent characters: **Top K Elements**.
+   - Detect cycle in a linked list: **Does Not Match**.
+   - Find the five nearest points to origin: **Top K Elements**.
+   - Implement a stack where pop removes the most frequent element: **Top K Elements**.

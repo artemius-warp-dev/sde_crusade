@@ -1,0 +1,43 @@
+#+TITLE: Introduction to Subsets
+Overview of the Subsets pattern, real-world applications, and example problems.
+
+** About the pattern
+Subsets pattern is a method to explore all possible combinations of elements from a data structure. It’s useful for generating subsets or combinations, particularly when dealing with:
+- **Unique elements** or **arrays with duplicates**.
+- **Incremental subset generation**: Each element is either included or excluded, progressively building all possible subsets.
+
+   - **Note**: Backtracking can be used here, as it exhaustively searches all possibilities, though it applies more broadly to other problems as well.
+
+** Examples
+Problems that can be solved with the Subsets pattern:
+1. **Permutations**: Find all possible permutations of an array of distinct integers.
+   - *Steps*:
+      - Start with an empty list.
+      - For each element, generate all possible placements in the current subsets.
+      - Add newly generated subsets to the result.
+2. **Combination Sum**: Find all combinations of integers in an array that sum up to a target.
+   - *Steps*:
+      - For each number in the array, add it to the current subset if it does not exceed the target.
+      - Continue until you reach the target sum or exhaust elements.
+
+** Does Your Problem Match This Pattern?
+Criteria for using the Subsets pattern:
+1. **Use if**:
+   - Problem requires combinations or subsets from an input data structure.
+   - Examples: Generating all combinations of items, calculating all subsets.
+   
+** Real-world Problems
+Common applications of the Subsets pattern:
+1. **Custom Movie Playlists**: Generate combinations of movies based on genre or length.
+   - Example: Create all weekend binge-watching combinations of comedies and dramas.
+2. **Test Case Generation**: Generate combinations of input values for software testing.
+   - Example: Comprehensive test cases for different scenarios and edge cases.
+3. **Feature Selection in Machine Learning**: Evaluate combinations of features to optimize model performance.
+   - Example: Select subsets of features to improve a model while reducing complexity.
+
+** Strategy Time!
+Evaluating whether the Subsets pattern is suitable for various problems:
+1. **Find longest route of 1s in matrix**: Not suitable. Use matrix traversal.
+2. **Find subset with sum 12**: Suitable. Generate all subsets and check for sum = 12.
+3. **Generate power set of {1, 2, 3}**: Suitable. Systematically generate all subsets.
+4. **Palindrome check for string**: Not suitable. Use two-pointers technique.

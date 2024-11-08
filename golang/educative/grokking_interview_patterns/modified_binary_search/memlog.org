@@ -1,0 +1,50 @@
+#+TITLE: Introduction to Modified Binary Search
+An overview of the Modified Binary Search pattern, including real-world applications and example problems.
+
+** About the pattern
+Modified Binary Search is an adaptation of the traditional Binary Search algorithm for situations where input data may be altered or complex.
+
+*** Classic Binary Search
+- Used for finding a target in sorted arrays/lists.
+- Uses three pointers: *start*, *end*, and *middle*.
+  - Calculate middle index: example with start=0 and end=7, middle = ⌊(0+7)/2⌋ = 3.
+  - Compare target value with element at *middle* index:
+    - If equal, target found; search terminates.
+    - If less, update *end* to middle-1.
+    - If greater, update *start* to middle+1.
+  - Repeat until target found or *start* crosses *end*.
+- Time Complexity: O(log(n)) due to divide-and-conquer.
+
+*** Modified Binary Search
+Extends Binary Search for complex problem types where data may be:
+1. **Modified Arrays**: Arrays might be rotated or partially sorted.
+2. **Multiple Requirements**: Searches with specific conditions, e.g., finding ranges or specific positions.
+
+** Examples
+Problems solvable by Modified Binary Search:
+1. **First and Last Position of Element**: Find the start and end positions of a target in a sorted array.
+2. **Integer Square Root (sqrt(x))**: Find integer square root of x.
+
+** Does Your Problem Match This Pattern?
+Criteria to use Modified Binary Search:
+1. **Use if**:
+   - Searching a target in sorted data.
+   - Problem has partially sorted segments.
+2. **Avoid if**:
+   - Data lacks direct addressing.
+   - Data is unsorted or not sorted by relevant criteria.
+   - Problem requires non-value-based solutions.
+
+** Real-world Problems
+Examples of Modified Binary Search applications:
+- **Dictionary Searches**: Binary search for specific words or words with a prefix.
+- **Range-Based Filtering**: Filter data based on a range (e.g., YouTube videos, bank transactions).
+- **String Searching**: Modified binary search for suffix or longest common prefix arrays (e.g., DNA sequence analysis).
+
+** Strategy Time!
+Evaluate if Modified Binary Search is appropriate:
+1. **Detect a Cycle in a Graph**: Not suitable. Graph traversal algorithms like DFS or BFS are better.
+2. **Check for Majority Element in Sorted Array**: Modified binary search can find the first occurrence and check if it meets criteria.
+3. **Find Peak Element in Array**: Efficient with modified binary search by comparing middle elements with neighbors.
+4. **Shift All 0s to Right**: Not suitable. Use two-pointer method for efficient solution.
+
