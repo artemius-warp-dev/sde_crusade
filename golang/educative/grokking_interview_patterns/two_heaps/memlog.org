@@ -1,0 +1,82 @@
+#+TITLE: Two Heaps Pattern Summary
+
+The Two Heaps pattern is a versatile and efficient approach used to solve dynamic data processing problems. It involves maintaining two heaps (min-heap, max-heap, or both) to efficiently manage and access elements in a dataset.
+
+** About the Pattern
+- Two heaps can be min heaps, max heaps, or a combination of both.
+- Each heap allows quick access to the smallest (min heap) or largest (max heap) element in O(1) time.
+- Operations like insertion and deletion are performed in O(log n) time.
+- The pattern is often used to divide datasets into two parts and retrieve either the maximum or minimum values from each part efficiently.
+
+Example Scenario:
+- If we need to find the smallest value from one part of the data and the largest value from another part, we can use a min heap and max heap respectively to store the data. This allows us to efficiently access the desired elements.
+
+** Efficiency Consideration
+- Inserting or removing an element takes O(log n) time.
+- Accessing the root element of the heap (smallest in min heap, largest in max heap) takes O(1) time.
+  
+** Examples
+
+*** Sliding Window Median
+- Given an array and a sliding window size `k`, find the median of each window as it slides.
+- Using two heaps (a max heap for the lower half and a min heap for the upper half), we can efficiently find the median for each window in constant time.
+
+Illustrative Example:
+- Array: `[1, 3, 5, 7, 2, 8, 6, 4]`, Window size `k=4`
+  - Median for window `[1, 3, 5, 7]`: `4`
+  - Median for window `[3, 5, 7, 2]`: `5`
+  - Continue sliding and updating heaps.
+
+*** Find Median of a Number Stream
+- Given a continuous stream of numbers, maintain two heaps to find the median of numbers seen so far after every insertion in constant time.
+- Min heap stores the larger half of the numbers, and max heap stores the smaller half.
+- Median can be calculated as the root of the max heap or the average of the roots of both heaps.
+
+Example:
+- Numbers: `1, 5, 2, 8`
+  - After `1`: Median = `1`
+  - After `5`: Median = `3`
+  - After `2`: Median = `2`
+  - After `8`: Median = `3`
+
+** Does Your Problem Match This Pattern?
+This pattern applies if:
+1. **Static or Streaming Data**: The data is either a continuous stream or a linear dataset that is not sorted.
+2. **Maxima/Minima Calculation**: You need to repeatedly calculate the maximum or minimum from two sets of data, or find the median in a data stream.
+
+** Real-World Applications
+
+*** Video Platforms
+- Used for calculating the median age of users based on demographic data.
+- Two heaps maintain the younger and older age groups for efficient median calculation as new users sign up.
+
+*** Gaming Matchmaking
+- Efficient player matchmaking based on skill levels.
+- Two heaps (one for min and one for max skill levels) allow for pairing players with similar skill levels.
+
+** Strategy Time!
+
+| Problem                                                   | Pattern                                  |
+|-----------------------------------------------------------|------------------------------------------|
+| Given an array, find the difference between max and min   | Two Heaps                                |
+| Sort characters of a string by frequency                  | Some other pattern                       |
+| Design a data structure to find the median in constant time | Two Heaps                                |
+| Find the longest substring with distinct characters       | Some other pattern (sliding window)      |
+
+** Key Concept Illustration
+
+*** Sliding Window Median
+1. **Create Two Heaps**:
+   - Max heap for the lower half of the window.
+   - Min heap for the upper half.
+2. **Window Slide**:
+   - As the window moves, add new elements to the heaps.
+   - Rebalance heaps to ensure size condition (max heap has at most one extra element).
+3. **Calculate Median**:
+   - If heaps are of equal size, median is the average of the top elements.
+   - If max heap has more elements, the median is the top element of the max heap.
+
+Example:
+  - Array: `[1, 3, 5, 7, 2]`, Window size: `3`
+  - Resulting medians: `[1, 2, 3]`
+    
