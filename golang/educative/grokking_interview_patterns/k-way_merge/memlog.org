@@ -1,0 +1,70 @@
+#+TITLE: Introduction to K-way Merge
+The K-way Merge pattern is an algorithm for merging K sorted data structures (such as arrays or linked lists) into a single sorted structure. It is an extension of the merge sort algorithm.
+
+** About the Pattern
+- Merges K sorted lists into one sorted list.
+- Repeatedly selects the smallest (or largest) element from the K lists and adds it to the output list.
+- The algorithm uses two main approaches: 
+  - **Using a min heap**: 
+    - Insert the first element of each list into a min heap.
+    - Remove the smallest element from the heap, add it to the output list.
+    - Replace the removed element with the next element from the same list.
+    - Repeat until all elements are merged.
+  - **Using grouping and merging pairs**: 
+    - Divide lists into pairs, merge each pair using the standard two-way merge, then repeat.
+
+** Example Schema for K-way Merge with Min Heap
+- Input lists:
+  #+BEGIN_SRC text
+  [1, 3, 5]
+  [2, 4, 6]
+  [0, 7, 8]
+  #+END_SRC
+
+- Min Heap Process:
+  1. Insert the first elements into the heap: [1, 2, 0]
+  2. Remove the smallest element (0) and add to the output list.
+  3. Replace 0 with the next element from the corresponding list: [1, 2, 3]
+  4. Repeat steps until all elements are merged.
+
+- Output list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+
+** Example Schema for K-way Merge by Grouping
+- Input lists:
+  #+BEGIN_SRC text
+  [1, 5, 9]
+  [2, 6, 10]
+  [3, 7, 11]
+  #+END_SRC
+
+- Group and Merge:
+  1. Pair lists: [1, 5, 9] & [2, 6, 10]
+  2. Merge each pair: [1, 2, 5, 6, 9, 10]
+  3. Repeat with remaining lists until one sorted list remains.
+
+- Output list: [1, 2, 3, 5, 6, 7, 9, 10, 11]
+
+** Real-world Applications
+- **Patient Records Aggregation**: Merging sorted data streams from different sources (e.g., lab results, physician notes) into a unified chronological order for better diagnosis and treatment planning.
+- **Merging Financial Transactions**: Combining sorted transaction data from multiple sources for real-time market analysis or fraud detection.
+- **Log File Analysis**: Merging time-ordered logs from multiple servers for comprehensive analysis.
+
+** Strategy Time!
+- **Problem Match**: 
+  - If the problem involves merging sorted arrays or finding the kth smallest/largest element across multiple sorted collections, then K-way merge is applicable.
+  
+** Example Problems:
+1. Median of K sorted arrays: 
+   - **Problem**: Find the median of K sorted arrays.
+   - **Solution**: Merge all arrays into one sorted array and find the median.
+  
+2. Kth smallest element in K sorted arrays:
+   - **Problem**: Find the kth smallest element.
+   - **Solution**: Merge the arrays and return the element at position k.
+
+** Does Your Problem Match This Pattern?
+- **Yes**, if:
+  - Involves merging sorted arrays or matrices.
+  - Seeking the kth smallest or largest across sorted collections.
+
+    
