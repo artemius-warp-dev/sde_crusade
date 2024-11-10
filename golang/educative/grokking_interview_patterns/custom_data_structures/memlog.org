@@ -1,0 +1,32 @@
+#+TITLE: Introduction to Custom Data Structures
+** Overview
+   - Custom Data Structures are tailored to fit specific problem requirements when existing structures are insufficient.
+   - Built using basic data structures as building blocks, customized for unique features or efficiencies.
+   - Examples: A web crawler’s URL queue, which ensures URL uniqueness and prioritizes based on relevance.
+
+** Key Benefits
+   - Facilitates efficient problem-solving in cases where traditional data structures are not optimal.
+   - Can be implemented as classes in programming languages, enabling abstraction and code reuse.
+
+** Examples of Custom Data Structures
+   1. **Custom stack with getMin() in O(1)**: Retrieves the minimum value in constant time.
+   2. **Two sum III**:
+      - Methods:
+         - **add(number)**: Adds a number to the data structure.
+         - **find(value)**: Checks if any pair sums up to a given value.
+
+** Identifying the Need for Custom Data Structures
+   - **Modification of an existing structure**: The problem requires adding or modifying features, like min stack.
+   - **Combination of multiple structures**: Efficient solutions may need two or more data structures, e.g., LRU cache.
+
+** Real-World Applications
+   - **Video Games**: Custom data structures manage player states, levels, and game details.
+   - **Search Engines**: Use custom structures to quickly search and display relevant data.
+   - **Car Parking Management**: Track available parking spots, handle reservations, and manage payments in complex parking systems.
+
+** Strategy Time: Problem Matching
+   1. **Finding the kth largest element in an array**: Best solved with sorting or a priority queue; custom data structures may not add efficiency.
+   2. **State persistence in distributed systems**: Custom structures enhance fault tolerance by synchronizing data across nodes.
+   3. **Max stack for O(1) highest value pop**: Custom structure with auxiliary data for max element tracking.
+   4. **Cycle detection in a linked list**: Standard cycle-detection algorithms (like Floyd's) are more appropriate than custom structures.
+

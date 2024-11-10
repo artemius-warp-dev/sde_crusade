@@ -1,0 +1,76 @@
+#+TITLE: Introduction to Tree Depth-First Search
+ 
+** Overview
+Tree Depth-First Search (DFS) is a tree traversal technique with various applications, including:
+  - Preorder traversal
+  - Inorder traversal
+  - Postorder traversal
+
+We’ll explore:
+  - Real-world applications
+  - Key strategies for identifying when to apply DFS
+
+** About the Pattern
+A tree is a type of graph with the following characteristics:
+  - *Undirected*: No directed edges.
+  - *Acyclic*: No cycles.
+  - *Connected*: Every two vertices are connected by exactly one path.
+  - Nodes contain values of any data type.
+
+** Key Features of Trees
+  - *Hierarchical structure*: Organized with a root node branching out.
+  - *Nonlinear*: Nodes branch, rather than being sequential.
+  - *Efficient search*: O(log n) complexity for balanced trees, vs. O(n) in arrays/lists.
+
+** Naive Traversal
+  - Starting at the root and re-visiting nodes leads to O(n²) complexity.
+  - DFS explores as far as possible along each branch before backtracking, achieving O(n) time complexity.
+
+** DFS Traversal Methods
+  - *Preorder*: Root → Left Subtree → Right Subtree
+  - *Inorder*: Left Subtree → Root → Right Subtree
+  - *Postorder*: Left Subtree → Right Subtree → Root
+
+*** Preorder Traversal
+Steps:
+  1. Traverse the left subtree.
+  2. Traverse the right subtree.
+  3. Repeat until all nodes are visited.
+
+*** Inorder Traversal
+Steps:
+  1. Traverse the left subtree.
+  2. Visit the current node.
+  3. Traverse the right subtree.
+
+*** Postorder Traversal
+Steps:
+  1. Traverse the left subtree.
+  2. Traverse the right subtree.
+  3. Visit the current node.
+
+** Examples
+  - Path sum: Check for a path with a target sum.
+  - Valid BST: Determine if a tree is a valid binary search tree.
+
+** Does Your Problem Match This Pattern?
+Use DFS if the following conditions hold:
+  - *Tree structure*: Input data is a tree or convertible into a tree.
+  - *Balanced with low branching factor*: Efficiently explores branches with minimal backtracking.
+  - *Hierarchical data*: Problems in domains like organizational charts.
+  - *Solution near leaves*: Solution requires depth exploration.
+  - *Path-based solution*: Solution components are along paths from root to leaves.
+  - *All possible paths*: Need to enumerate all paths in the tree.
+
+** Real-World Problems
+  - *Product price range*: Traverse a price-based binary search tree.
+  - *Dependency resolution*: Software dependencies are resolved in build order.
+  - *Syntax tree analysis*: Compilers use DFS on syntax trees for various tasks.
+
+** Strategy Time!
+Match problems with appropriate tree traversal methods:
+  - *Zig-zag level order traversal*: Better suited to BFS.
+  - *Maximum path sum*: Postorder traversal to calculate subtree sums.
+  - *Lowest common ancestor*: Postorder traversal from root to target nodes.
+  - *Connect siblings*: BFS better captures nodes at the same level.
+    

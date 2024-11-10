@@ -1,0 +1,47 @@
+#+TITLE: Introduction to Knowing What to Track
+** Overview
+   - This pattern is about counting occurrences of elements in a dataset to solve problems efficiently.
+   - Useful in scenarios where we need to track frequencies and utilize this data to inform solutions.
+
+** Phases of the Pattern
+   1. **Counting Phase**: Iterates over data, counting the frequency of each element.
+      - Common data structures for counting:
+        - **Hash Maps**: Elements are keys, frequencies are values.
+        - **Arrays**: Element value as index, frequency as the array value.
+   2. **Utilization Phase**: Uses frequency data to solve problems:
+      - **Examples**:
+        - Find the most frequent element.
+        - Identify unique elements.
+        - Check if two arrays are permutations.
+        - Determine game outcomes.
+
+** Implementation Details
+   - **Hash Map Counting**:
+     - If an element exists as a key, increment its frequency by 1.
+     - If not, add it with a frequency of 1.
+   - **Array Counting**:
+     - Use element value as the array index, incrementing the corresponding frequency.
+     - For non-integer elements, create a mapping to array indexes (e.g., 'a' to 0, 'b' to 1).
+
+** Examples of Problems Solved with Knowing What to Track
+   1. **Contains Duplicate II**: Given an array `nums` and an integer `k`, return TRUE if there are two distinct indexes `i` and `j` where `nums[i] == nums[j]` and `|i - j| ≤ k`.
+   2. **Count Prefixes**: Given a string, count how many prefixes (starting substrings) are present.
+
+** When to Use Knowing What to Track
+   - **Frequency Tracking**: Problems where we need to count elements individually or in combination.
+   - **Pattern Recognition**: Look for repetitive patterns in data, often indicating frequency counting.
+   - **Fixed Set of Possibilities**: Problems requiring binary or categorical outcomes, such as True/False or Player 1/Player 2.
+
+** Real-World Applications
+   1. **DNA Sequence Analysis**: Count nucleotide/amino acid frequencies for tasks like identifying genetic variations.
+   2. **Video Streaming**: Track most frequently watched shows to enhance the "continue watching" section.
+   3. **E-commerce Recommendations**: Suggest products frequently viewed together.
+   4. **Clickstream Analysis**: Analyze user behavior (e.g., page views, clicks) for website optimization.
+
+** Strategy Time: Problem Matching
+   1. **Substring with All Vowels**: Track vowel occurrences in substrings to identify those containing all vowels.
+   2. **Palindrome Permutations**: Track character frequencies; if at most one has an odd count, a palindrome permutation is possible.
+   3. **Sudoku Puzzle**: This problem does not use frequency tracking directly, as it involves logical inference and constraint satisfaction rather than counting frequencies.
+   4. **Valid Palindrome Check**: Check for palindrome structure using a two-pointer approach rather than frequency tracking.
+
+      
