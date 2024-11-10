@@ -1,0 +1,74 @@
+#+TITLE: Introduction to Cyclic Sort
+
+Let’s go over the Cyclic Sort pattern, its real-world applications, and some problems we can solve with it. We'll cover the following:
+- About the pattern
+- Examples
+- Does your problem match this pattern?
+- Real-world problems
+- Strategy time!
+
+** About the pattern
+
+Imagine we have a classroom with numbered seats, and each student is given a card with a number corresponding to their seat number. To maintain classroom decorum and order, students are required to sit in their assigned seats. However, students have randomly taken seats, so the seating arrangement is all jumbled up. If we have to fix this, we start with the first seat, seat 1, and check if the student sitting here has the right card, i.e., the number 1. If not, we move the student to the seat corresponding to their card number. We repeat this process for each seat until every student is in their proper seat according to the number on their card. After completing this process for all seats, the students will be sitting in ascending order according to their seat numbers.
+
+The repeated swapping of students until they find their correct positions is nothing but the cyclic sort. It can be seen as the cycling of elements through the array until they settle into their proper places.
+
+Cyclic sort is a simple and efficient in-place sorting algorithm used for sorting arrays with integers in a specific range, most of the time [1 – n]. It places each element in its correct position by iteratively swapping it with the element at the position where it should be located. This process continues until all elements are in their proper places, resulting in a sorted array.
+
+But how do we know the correct position of any element? This is where the algorithm makes things even easier: the correct place of any element is simply the value of element - 1. For example, if we have the array [3,1,2], then the correct position of the first element, 3, is (3−1)th index, i.e., index 2 and not 0. Similarly, the correct position for the elements 1 and 2 is index 0 and 1, respectively.
+
+** Is there a way to determine whether to use cyclic sort on a given unsorted array of integers?
+
+Yes, we can identify cycles within the array, which are nothing but the subsequences of numbers that are not in sorted order. A cycle occurs when there’s an element that is out of place, and swapping it with the element at its correct position moves another element out of place, forming a cycle.
+
+Note: The unsorted arrays with numbers ranging from [1−n], where n is the length of the array, are guaranteed to have one or more cycles in them.
+
+Once we have identified the cycles within the input array, we can remove them using the cyclic sort. Let’s look at an illustration to understand how the cycles are removed.
+
+Note: In practice, the process of identifying cycles and performing cyclic sort is seamlessly integrated and considered as one cohesive operation.
+
+Unlike algorithms with nested loops or recursive calls, cyclic sort achieves a linear time complexity of O(n) due to its streamlined approach of iteratively placing each element in its correct position within a single pass through the array. This makes it fast and reliable, especially for small arrays. Moreover, cyclic sort doesn’t require any extra space, as it sorts the elements in place.
+
+Cyclic sort, while efficient in specific scenarios, does come with its limitations:
+- **Limited range**: Cyclic sort’s efficiency is contingent upon the range of elements being limited and known beforehand.
+- **Not stable**: Cyclic sort lacks stability as a sorting algorithm. This means it may alter the relative order of equal elements.
+- **Not suitable for noninteger arrays**: Cyclic sort is optimized for sorting arrays of integers.
+- **Not suitable when multiple attributes play a significant role**: Cyclic sort may not handle cases where the input has multiple attributes associated with it.
+
+** Termination Condition
+
+Normally, it is quite easy to know when to terminate the algorithm for cyclic sort. If we have the input array of length n containing all the numbers from 1 to n, then the cyclic sort would end once every element of the array has been traversed from index 0 to n−1. However, it gets tricky when the input array does not contain every number from 1 to n.
+
+In such scenarios, we need to incorporate appropriate error-handling mechanisms or termination conditions within the cyclic sort algorithm to prevent infinite loops and ensure correct sorting outcomes.
+
+Examples:
+- Set mismatch: Given a set of numbers from 1 to n, we have to find one number that is repeated and another number that is missing from the set.
+- Find the Kth missing positive number: Given an array of numbers, find the kth missing number.
+
+** Does your problem match this pattern?
+
+- Yes, if either of these conditions are fulfilled:
+  - Limited range integer arrays: The problem involves an input array of integers in a small range, usually [1−n].
+  - Finding missing or duplicate elements: The problem requires us to identify missing or duplicate elements in an array.
+
+- No, if any of these conditions are fulfilled:
+  - Noninteger values: The input array contains noninteger values.
+  - Nonarray format: The input data is not originally in an array.
+  - Stability requirement: The problem requires stable sorting.
+
+** Real-world problems
+
+Many problems in the real world share the cyclic sort pattern:
+- **Computational biology**: The species on a planet have n distinct genes numbered 1…n. Find the kth missing gene in a given DNA sequence.
+- **Playing card sorting**: If we have a deck of playing cards represented as integers in the range [1−52], we can use cyclic sort to rearrange the cards into sorted order efficiently.
+- **Data validation**: Cyclic sort can be used for data validation tasks, especially when dealing with datasets that are expected to have distinct values within a certain range.
+- **Package delivery routing**: In logistics or package delivery systems, drivers may have a list of addresses to visit. We can map these addresses to integers in a defined range and use cyclic sort to optimize the route.
+
+** Strategy time!
+
+Match the problems that can be solved using the cyclic sort pattern:
+
+- **Given a string representing a number, return the closest number that is a palindrome**: Not Cyclic Sort
+- **Given an array of numbers in the range 1 to n, find all the numbers that are missing in the array**: Cyclic Sort
+- **Given a set of numbers, find the first 5 missing positive numbers**: Cyclic Sort
+- **Given a set, return the number of subsets with the sum equal to 10**: Not Cyclic Sort

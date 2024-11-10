@@ -1,0 +1,45 @@
+#+TITLE: Introduction to Hash Maps
+** Overview
+   - Hash maps (or hash tables) store key-value pairs, allowing quick retrieval of values by keys.
+   - Efficiency comes from using a hash function to compute an index for each key, locating values quickly.
+
+** Core Hash Map Methods
+   - **Insert(key, value)**:
+     - Hash function computes an index for the key, storing the value at this location.
+     - Collisions handled with strategies like chaining or open addressing.
+     - Average time: O(1); worst case: O(n) if all keys hash to the same index.
+   - **Search(key)**:
+     - Hash function computes the index, retrieving the stored value at that index.
+     - Average time: O(1); worst case: O(n) due to collisions or resizing.
+   - **Remove(key)**:
+     - Finds the index via the key’s hash and removes the value at that index.
+     - Average time: O(1); worst case: O(n).
+
+** Example: Hash Map vs Array Lookup
+   - With arrays, you’d need two arrays (e.g., for names and marks) and align indexes for each value.
+   - Hash maps simplify this by using names as keys and marks as values, requiring only one lookup in O(1) time.
+
+** Key Concepts
+   - **Hash Function**: Determines the index for a key.
+   - **Collision Resolution**: Handles situations where multiple keys map to the same index.
+   - **Time Complexity**: Often O(1) for average cases, but worst cases can be O(n) due to collisions.
+
+** Examples of Problems Solved with Hash Maps
+   1. **Two Sum**: Check for a pair in an array with a target sum.
+   2. **Word Count**: Count occurrences of each word in a string.
+
+** When to Use Hash Maps
+   - **Data Access**: Need fast, repeated access to data during algorithm execution.
+   - **Pair-wise Relations**: Store relationships between two sets of data with key-value pairs for quick lookups.
+
+** Real-World Applications
+   1. **Telecommunications**: Use a hash map for a phone book, mapping names to numbers.
+   2. **E-commerce**: Use product IDs as keys to search product details.
+   3. **File System**: Map file names to file paths for quick access.
+
+** Strategy Time: Problem Matching
+   1. **Four Elements with Sum Equality**: Store pair sums in a hash map to check for matching sums.
+   2. **k-th Smallest Element**: Not optimal with hash maps; use sorting or algorithms like quickselect or heaps instead.
+   3. **Max Subarray Sum**: Dynamic programming (Kadane's algorithm) is more efficient here than using a hash map.
+   4. **Pairs with Divisible Sum**: Use hash map to store remainders and efficiently find pairs with a divisible sum.
+

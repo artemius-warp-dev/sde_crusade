@@ -1,0 +1,59 @@
+#+TITLE: Introduction to Tree Breadth-First Search
+Let’s go over the Tree Breadth-first Search pattern, its real-world applications, and some problems we can solve with it.
+
+** We'll cover the following
+- About the pattern
+- Examples
+- Does your problem match this pattern?
+- Real-world problems
+- Strategy time!
+
+** About the pattern
+A tree is a graph with the following properties:
+- It is undirected.
+- It is acyclic.
+- It is a connected graph where any two vertices are connected by exactly one path.
+- Its nodes can contain values of any data type.
+
+** Key features of trees
+- Trees organize data hierarchically with a root node and branching child nodes.
+- Trees are nonlinear; elements are arranged in a branching structure rather than sequentially.
+- Search and insert operations in trees have a typical time complexity of O(log n), where n is the number of elements.
+- There are multiple ways to traverse trees.
+
+A naive approach to exploring the tree would involve revisiting nodes, resulting in time complexity of O(n²) in the worst case.
+
+** Tree Breadth-First Search (BFS)
+Tree BFS is a traversal method that explores the tree level by level, starting from the root node.
+
+** Key features of Tree BFS
+- Initialization: Begins search from the root node.
+- Exploring adjacent nodes: At each step, BFS examines all nodes at the current level before moving to the next.
+- Traversal strategy: BFS explores nodes layer by layer, ensuring all nodes at one level are visited before the next.
+- Node discovery: New nodes are processed based on search requirements, stopping when the target is found or when all nodes have been explored.
+- Stopping condition: BFS terminates when the desired node is found or all nodes have been explored.
+
+** Examples of problems solvable with BFS
+1. Minimum depth of a tree: Find the shortest distance from the root to the nearest leaf.
+2. Bottom-up level order traversal: Return the bottom-up, left-to-right level order traversal of nodes.
+
+** Does your problem match this pattern?
+Yes, if any of these conditions are met:
+- Tree data structure: The input is a tree or can be converted into one.
+- Not a wide tree: BFS may be less efficient for very wide trees.
+- Level-by-level traversal is required.
+- The solution is likely near the root of the tree.
+
+** Real-world problems using Tree BFS
+1. File system analysis: Traverse directory structures to analyze dependencies or find file paths.
+2. Version control systems: Traverse file system trees to track changes and manage revisions.
+3. Genealogy and evolutionary trees: BFS can help analyze ancestral connections and evolutionary relationships.
+4. Traversing DOM trees: Represent HTML as a tree structure and use BFS for level-by-level traversal.
+5. Shadow DOM traversal: Use BFS with a shadow tree, utilizing a "next" pointer for space efficiency.
+
+** Strategy time! 
+Match the problems that can be solved using Tree Breadth-First Search (BFS):
+
+- Traverse a tree level by level: Use BFS to visit nodes in the same order as they appear at each level.
+- Find the shortest path between two nodes in a binary tree: BFS ensures the shortest path is discovered first.
+- Connect nodes at the same level in a binary tree: BFS traversal allows establishing connections between nodes at each level.

@@ -1,0 +1,61 @@
+#+TITLE: Introduction to Matrices
+
+Let’s go over the Matrices pattern, its real-world applications, and some problems we can solve with it.
+We'll cover the following:
+  - About the pattern
+  - Examples
+  - Does your problem match this pattern?
+  - Real-world problems
+  - Strategy time!
+
+** About the pattern
+
+A matrix is a group of numbers arranged in rows and columns in a rectangular pattern. In computer science, matrices are represented by 2D arrays with dimensions m×n, where m is the number of rows, and n is the number of columns. Each element in the matrix can be accessed using the array indexes. The first index represents the row, and the second index represents the column. For example, matrix[i][j] is an element from the i-th row and the j-th column of the matrix.
+
+Matrix transformations are operations performed on matrices that result in a new matrix. There are several types of matrix transformations commonly used in mathematics and computer science. Here is a list of some of the most fundamental matrix transformations:
+
+  - **Addition and subtraction**: Element-wise addition or subtraction of two matrices of the same dimensions. Here, the dimensions of both matrices must be identical.
+  - **Multiplication**: We perform the dot product between the rows of the first matrix and the columns of the second matrix. The dot product between a row and a column is calculated by multiplying the corresponding elements of the row of the first matrix by the corresponding elements of the column of the second matrix and summing the results. Here, the number of columns in the first matrix must be equal to the number of rows in the second matrix.
+  - **Inverse**: For a square matrix A, if there exists another square matrix B such that AB = BA = I (where I is the identity matrix), then B is called the inverse of A, denoted as A⁻¹.
+  - **Transpose**: Swapping the rows and columns of a matrix.
+  - **Scalar multiplication**: Each element of the matrix is multiplied by a scalar value.
+  - **Rotation**: The elements of a square matrix are rotated at an angle.
+  - **Reflection**: The elements of a matrix are flipped over an axis.
+
+Matrix traversal refers to the process of systematically visiting each element in a matrix exactly once. This process is often used in computer science and mathematics for various applications such as searching, sorting, pathfinding, and data manipulation. There are several common methods for traversing a matrix:
+
+  - **Row-major traversal**: In this method, we traverse the matrix row by row, moving horizontally first and then vertically.
+  - **Column-major traversal**: This is the opposite of row-major traversal. We traverse the matrix column by column, moving vertically first and then horizontally.
+  - **Diagonal traversal**: In this method, we traverse the matrix along its diagonal elements. There are different variations of diagonal traversal, such as traversing from the top-left corner to the bottom-right corner (main diagonal) or from the top-right corner to the bottom-left corner (secondary diagonal).
+  - **Spiral traversal**: This method involves traversing the matrix in a spiral pattern, starting from the outermost elements and moving towards the center. The traversal direction alternates between right, down, left, and up until all elements are visited.
+
+** Examples
+
+The following examples illustrate some problems that can be solved with these approaches:
+
+  - **Rotate and invert an image**: Given an n×n binary image, rotate it clockwise, invert it, and return the final image.
+  - **Toeplitz matrix**: Given an m×n matrix, return TRUE if the matrix is Toeplitz, otherwise, return FALSE. A matrix is Toeplitz if every descending diagonal from left to right (or basically every left diagonal) has the same elements.
+
+** Does your problem match this pattern?
+
+Yes, if the following condition is fulfilled:
+  - **2D array input**: The input data is given as a 2D array. However, some exceptions to this could be problems that have a 2D array as an input, but are solved with some other pattern, e.g., graphs, dynamic programming, etc.
+
+** Real-world problems
+
+Many problems in the real world share the matrix transformation pattern. Let’s look at some examples:
+
+  - **Image processing**: Matrices are used to represent images, where each pixel’s color values are stored in a matrix. Matrix transformations such as scaling, rotation, translation, and affine transformations are applied to manipulate images in graphics software.
+  - **Computer graphics and gaming**: Matrices are used to represent transformations, such as translating, rotating, and scaling objects in 3D space. They are also used for transformations of vertices in 3D graphics rendering pipelines, essential for creating realistic scenes in video games and simulations.
+  - **Data analysis and statistics**: Matrices are used in statistics for representing data sets. They are used in techniques like linear regression, principal component analysis (PCA), and factor analysis. Additionally, matrices play a crucial role in multivariate analysis, covariance matrices, and correlation matrices.
+  - **Machine learning**: Matrices are central to many machine learning algorithms, especially in tasks like linear regression, logistic regression, support vector machines (SVM), neural networks, and dimensionality reduction techniques.
+
+** Strategy time!
+
+Match the problems that can be solved using the matrices pattern.
+
+  - **Rotate an image**: By representing the image as a matrix, where each element corresponds to a pixel, we can apply matrix operations to rotate the image. Rotating an image involves rearranging its pixels in a clockwise or counterclockwise direction, which can be achieved by performing matrix transformations such as transposition and flipping.
+  - **Find the longest palindromic sequence in a given string**: While matrices can be helpful in some string manipulation tasks, finding palindromic sequences involves more complex operations such as substring comparison and dynamic programming. Palindromes are not inherently related to the structure or properties of matrices, making it challenging to apply matrix operations directly.
+  - **Implement a basic calculator**: Matrices are primarily used for representing and manipulating structured data in a tabular form, whereas a calculator involves parsing and evaluating mathematical expressions. Calculators typically require more sophisticated algorithms, such as tokenization, infix to postfix conversion, and evaluating the postfix expression. These operations are not inherently related to matrix operations or properties.
+  - **Given an m×n map of a server center, return the number of servers that communicate with any other server**: By representing the map as a matrix, where each element corresponds to a server, we can perform matrix operations to identify the communication links between servers. We can utilize matrix operations like transposition, element-wise operations, and matrix multiplication to compute server communication status.
+r

@@ -1,0 +1,45 @@
+#+TITLE: Introduction to Trie
+** Overview
+   - A trie is a tree-like data structure used for storing and locating keys (usually strings) character by character.
+   - Each node in a trie represents a single character rather than the entire key, allowing efficient storage and retrieval.
+
+** Key Characteristics of a Trie
+   - **Character Order**: Represented by edges between nodes. Example: "are" has an edge from **a** to **r** to **e**.
+   - **Level of Nodes**: Each level represents a character's position in a word. Path traversal from root to leaf forms the word.
+   - **End-of-Word Nodes**: Mark the end of each word in the trie, distinguishing complete words from prefixes.
+
+** Core Trie Methods
+   - **Insert(word)**:
+     - Traverse down the trie, creating new nodes as needed for each character.
+     - Time complexity: O(m), where m is the length of the word.
+   - **Search(word)**:
+     - Follow the path corresponding to the word's characters; if the path exists, the word is present.
+     - Time complexity: O(m).
+   - **Delete(word)**:
+     - Traverse the trie to locate the word and remove nodes if required.
+     - Time complexity: O(m).
+
+** Efficiency Comparison with Trees
+   - Tries allow wider and shallower trees by increasing fan-out (e.g., a 26-ary tree for English alphabet characters).
+   - This structure optimizes for depth, reducing traversal length and improving performance for string-based operations.
+
+** Examples of Trie Applications
+   1. **Longest Common Prefix**: Identify the longest common prefix shared among strings.
+   2. **Count Unique Words**: Count unique words in a text efficiently by storing each word once.
+
+** When to Use Tries
+   - **Partial Matches**: Needed to detect partial matches based on initial characters.
+   - **Space Optimization**: Reduces storage for shared prefixes.
+   - **Character Breakdown**: Problems that can break down words into individual characters.
+
+** Real-World Applications
+   1. **Autocomplete System**: Provides search query suggestions based on typed prefixes.
+   2. **Orthographic Corrector**: Suggests and corrects spelling by looking up words in a trie-based dictionary.
+   3. **Prefix Matching in IPs/URLs**: Firewalls and security systems match IPs/URLs with allowed/blocked prefixes.
+
+** Strategy Time: Problem Matching
+   1. **Contact List Search**: Build a trie with each contact name character, enabling efficient prefix-based search.
+   2. **Find Words Starting with "aba"**: Use a trie to quickly retrieve all dictionary words with the specified prefix.
+   3. **Print Permutations**: Not suitable for tries; use backtracking instead for permutation generation.
+   4. **Top 5 Elements from Stream**: Not suitable for tries; heaps or priority queues are more appropriate.
+

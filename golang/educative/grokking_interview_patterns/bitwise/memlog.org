@@ -1,0 +1,46 @@
+
+#+TITLE: Introduction to Bitwise Manipulation
+** Overview
+   - Bitwise Manipulation modifies bits algorithmically with bitwise operations.
+   - It operates on binary representations of numbers (both signed and unsigned).
+   - Fast and efficient due to processor-native support for bitwise operations.
+
+** Key Bitwise Operators
+   - Logical NOT: Flips the bit (1 -> 0, 0 -> 1).
+   - Logical AND: Results in 1 only if both bits are 1.
+   - Logical OR: Results in 1 if at least one bit is 1.
+   - Logical XOR: Results in 1 only if bits are different.
+   - Left Shift: Shifts bits left, filling right with zeros (multiplies by 2^n).
+   - Right Shift: Shifts bits right, filling left with zeros (divides by 2^n).
+
+** Signed Number Shifts
+   - Arithmetic shifts maintain the sign bit:
+     - **Left Shift**: Fills vacated bits with 0.
+     - **Right Shift**: Fills vacated bits based on the sign (0 for positive, 1 for negative).
+
+** Cyclic Shifts
+   - Bits shifted left or right, with vacated bits reintroduced at the opposite end.
+
+** Examples
+   1. **Swap without extra space**: Swap two numbers without a temporary variable.
+   2. **Check for even/odd**: Determine if a number is even or odd without using division or modulus.
+
+** Real-World Applications
+   - **Compression Algorithms**: Bitwise operations assist in efficient encoding (e.g., Huffman coding).
+   - **Status Register in CPUs**: Bits in registers represent specific states (e.g., zero flag).
+   - **Cryptography**: Cyclic shifts add complexity, enhancing encryption security.
+   - **Hash Functions**: Used in error detection, data integrity verification (e.g., CRC).
+
+** Problem Identification: Does Your Problem Match This Pattern?
+   - **Yes** if:
+     - Input data can be manipulated at the bit level.
+     - Requires a sorting optimization better than O(n log n).
+   - **No** if:
+     - Requires evaluating combinations or subsets (dynamic programming may be better).
+
+** Strategy Time: Problem Matching
+   1. **Check if an integer is a power of 2**: Use bitwise AND with decremented value to verify power of 2.
+   2. **Subset Sum**: Bitwise manipulation unsuitable for evaluating subset combinations (use DP or backtracking).
+   3. **Odd Occurrence in Array**: XOR cancels out even occurrences, isolating the odd-count element.
+   4. **Max Element in Array**: Finding max value requires comparison; bitwise manipulation is not suitable.
+

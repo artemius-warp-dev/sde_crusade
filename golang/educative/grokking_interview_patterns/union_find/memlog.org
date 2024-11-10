@@ -1,0 +1,35 @@
+#+TITLE: Introduction to Union Find
+** Overview
+   - Union Find groups elements into nonoverlapping sets based on a specified property, represented by disjoint sets with unique elements.
+   - Uses two primary operations:
+     - **find(v)**: Finds the representative (root) of the set containing v.
+     - **union(v1, v2)**: Merges the sets containing v1 and v2 into one.
+
+** Optimizations
+   1. **Union by Rank**: Always attaches a tree of a lower rank to one with a higher rank, reducing the tree height.
+      - Reduces worst-case time complexity to **O(log(n))**.
+   2. **Path Compression**: During find operations, updates each node to point directly to the root.
+      - Brings amortized time complexity down to **O(α(n))**, where α is the inverse Ackerman function (very efficient).
+
+** Examples of Problems Solved with Union Find
+   1. **Longest Consecutive Sequence**: Find the longest sequence of consecutive integers in an unsorted array.
+   2. **Successor with Delete**: Delete numbers and find successors in a stream of integers from 1 to n.
+
+** When to Use Union Find
+   - **Property-based Grouping**: The problem involves grouping elements by a shared property (connected components in graphs).
+   - **Set Combination**: Requires merging sets or determining if two elements belong to the same set.
+   - **Graph Data Organization**: When data is organized as a graph but lacks adjacency lists or matrices.
+
+** Real-World Applications
+   1. **Image Segmentation**: Divide a digital image into regions with similar colors, merging adjacent regions with similar colors.
+   2. **Image Manipulation**: Identify distinct objects in images (e.g., for selection tools based on color or object detection).
+   3. **Network Connectivity**: Determine if there's a connection between devices in a network.
+   4. **Percolation (Physics)**: Model percolation in grids to identify if there’s a connected component from the top to the bottom.
+   5. **Hex Game**: Track connections to determine if a player has won by forming a path across the board.
+
+** Strategy Time: Problem Matching
+   1. **Couples Seating Arrangement**: Find the minimum swaps needed to make each couple sit together by treating each couple as a connected component.
+   2. **Cycle Detection in Graph**: Identify cycles in a graph by checking if two nodes in an edge belong to the same set.
+   3. **Longest Subarray of 1's After Deleting One Element**: This problem does not fit the union find pattern and may be better solved with dynamic programming or sliding window techniques.
+   4. **Missing Elements in Range**: A task suited to set operations or sorting rather than the union find pattern.
+

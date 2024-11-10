@@ -1,0 +1,99 @@
+#+TITLE: Introduction to Graphs
+
+Let’s go over the Graphs pattern, its real-world applications, and some problems we can solve with it.
+We'll cover the following:
+
+- About the pattern
+- Examples
+- Does your problem match this pattern?
+- Real-world problems
+- Strategy time!
+
+** About the pattern
+
+A graph is a nonlinear data structure that represents connections between entities. In graph theory, entities are represented as vertices (or nodes), and the connections between them are expressed through edges.
+
+Let’s go over some basic components and common properties of graphs:
+
+| Name               | Description                                                                                                                                                         |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Vertex (node)      | It is the fundamental unit of a graph, usually represented as a point that holds some information or data.                                                          |
+| Edge               | It is a connection between two nodes. An edge may have a direction (directed edge) or not (undirected edge).                                                        |
+| Weight             | Each edge has a weight assigned to it, which indicates a cost or value associated with the connection.                                                               |
+| Degree             | It is the number of edges incident to a node.                                                                                                                        |
+| In-degree          | It is the number of edges coming towards the node (In directed graphs only).                                                                                         |
+| Out-degree         | It is the number of edges going away from the node (In directed graphs only).                                                                                       |
+| Adjacent nodes     | Those nodes that are directly connected to each other by an edge.                                                                                                  |
+| Path               | It is a sequence of nodes where each adjacent pair is connected by an edge.                                                                                         |
+| Cycle              | It is a path that starts and ends at the same node.                                                                                                                  |
+
+** Types of graphs
+
+There are various types of graphs, each tailored to represent different relationships and scenarios. Let’s explore the key types:
+
+- **Undirected graph**: A graph in which the edges have no direction, representing a two-way relationship between nodes.
+- **Directed graph**: A graph in which the edges have a direction, indicating a one-way relationship between nodes.
+- **Weighted graph**: A graph in which each edge has a numerical value assigned to it, indicating the cost, distance, or some other relevant measure associated with that connection.
+- **Cyclic graph**: A graph that contains at least one cycle, which is a path that starts and ends at the same node.
+- **Acyclic graph**: A graph that contains no cycles, that is, there is no path that starts and ends at the same node.
+
+** Graph representation
+
+Graphs are usually represented as either an adjacency list or an adjacency matrix in order to solve graph-related problems.
+
+- **Adjacency list**: A collection of lists, where each list corresponds to a node and contains its neighbors. In the case of weighted graphs, the weight is stored along with the corresponding nodes. Otherwise, a default weight of 1 is assumed and is often omitted from the lists.
+- **Adjacency matrix**: A 2D array where each cell, `matrix[i][j]`, represents the edge between nodes `i` and `j`. The value of `matrix[i][j]` equals 1 (or the weight in the case of a weighted graph) if there’s an edge between nodes `i` and `j`, and 0 otherwise.
+
+** Graph traversal
+
+There are two fundamental graph traversal techniques: breadth-first search (BFS) and depth-first search (DFS).
+
+*** Depth-first search (DFS)
+
+In DFS, the strategy is to explore as far as possible along one path before turning back. The algorithm starts with a chosen source node and proceeds to one of its neighbor nodes while marking the source node as visited. This continues until it reaches a node with no neighbors. Now, the algorithm starts backtracking.
+
+*** Breadth-first search (BFS)
+
+In BFS, the strategy is to explore the graph in layers, one level at a time. The algorithm begins at a chosen source node and visits all its immediate neighbor nodes while marking them as visited. It then moves on to visit the neighbors of those nodes before proceeding to the next level of neighbors.
+
+** Graph algorithms
+
+Graph traversal can be used to find paths, cycles, or connected components within graphs. However, when aiming for specific objectives, such as determining the shortest path or identifying the minimum spanning tree, specific algorithms are needed.
+
+- **Dijkstra’s algorithm**: Finds the shortest path between two nodes in a weighted graph.
+- **Bellman-Ford algorithm**: Finds the shortest paths in a weighted graph, even when negative edge weights are present.
+- **Floyd-Warshall algorithm**: Finds the shortest paths between all pairs of nodes in a weighted graph.
+- **Topological sorting**: Orders nodes in a directed acyclic graph (DAG) to satisfy dependencies.
+- **Prim’s algorithm**: Finds the minimum spanning tree of a connected, undirected graph.
+- **Kruskal’s algorithm**: Finds the minimum spanning tree of a connected, undirected graph.
+
+** Examples
+
+- **Find if a path exists in the graph**: Given the source and destination nodes in a graph, determine whether there is a valid path between them.
+- **Find if a cycle exists in the graph**: Given a graph, determine whether it contains a cycle or not.
+
+** Does your problem match this pattern?
+
+Yes, if the following conditions are fulfilled:
+
+- Relationships between elements: There is a network of interconnected objects with some relationship between them; that is, the data can be represented as a graph.
+
+** Real-world problems
+
+Many problems in the real world use the graphs pattern. Let’s look at some examples:
+
+- **Routing in computer networks**: The graph representation helps visualize the network, where nodes represent devices such as computers or servers and edges signify connections. Graph algorithms can be used to find the shortest and optimal path.
+- **Flight route optimization**: Airlines use graph-based algorithms to optimize flight routes. The airport network is a graph, where nodes represent airports and edges represent flights.
+- **Epidemic spread modeling**: Graph algorithms simulate how a virus might spread through a community.
+- **Recommendation systems**: Online services like Netflix use graph algorithms to suggest movies based on user preferences.
+
+** Strategy time!
+
+Match the problems that can be solved using the graphs pattern.
+
+- **Given multiple paths from city A to city B, find the shortest path to reach city B from city A**: Use graph algorithms like Dijkstra's or Bellman-Ford.
+- **Given a list of three colors, represented by 0, 1, and 2, sort the array in place so that the elements of the same color must be adjacent**: This is a sorting problem and not related to graph structures.
+- **Given an m×n integer matrix, if an element is 0, set its entire row and column to 0's**: This problem is not a graph-related one.
+- **Given a network of routers connected to each other, find such a path between two routers whose removal will fail the communication across the network**: Use graph algorithms like DFS or BFS to find critical paths.
+- **Given the head of a linked list, determine if the linked list has a cycle in it**: This is not a graph problem; cycle detection in linked lists is handled differently.
+- **Given an n×n binary matrix grid, find the length of the shortest clear path in the matrix**: This is a graph problem, where each cell is a node, and the edges represent clear passages.

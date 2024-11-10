@@ -1,0 +1,82 @@
+#+TITLE: Introduction to Stacks
+
+Let's go over the Stacks pattern, its real-world applications, and some problems we can solve with it.
+We'll cover the following:
+- About the pattern
+- Examples
+- Does your problem match this pattern?
+- Real-world problems
+- Strategy time!
+
+** About the pattern
+
+A stack is a linear data structure that organizes and manages data in a Last In, First Out (LIFO) manner. This means the last element added to the stack is the first to be removed. Think of it like a stack of plates where you can only add or remove plates from the top.
+
+There are two fundamental operations, push and pop, to add and remove elements while maintaining the LIFO order. Let’s delve into each operation:
+
+- **push**: This operation involves placing an element at the top of the stack. Whenever we push a new element onto the stack it becomes the new top element and this is why the stack grows in an upward direction.
+
+- **pop**: This operation involves removing the top element from the stack. The removed element is usually returned by the pop operation so that we can use or process it. After a pop operation, the element just below the one removed becomes the new top element.
+
+There is some capacity associated with every stack which is nothing but the size of the stack. It is important to keep an eye on the stack’s capacity while performing the push and pop operations otherwise it results in either stack overflow or underflow.
+
+- **Stack overflow** occurs when we try to push an element onto a full stack. Therefore, a push operation can’t be called on a full stack.
+- **Stack underflow** occurs when we try to pop an element from an empty stack. Therefore, a pop operation can’t be called on an empty stack.
+
+If either a stack overflow or underflow occurs, it can result in a memory-related issue, potentially leading to a crash or triggering an error.
+
+** Stack Operations
+
+| Operation    | Time Complexity | Description |
+|--------------|-----------------|-------------|
+| **Push**     | O(1)            | Adds the element at the top of the stack. |
+| **Pop**      | O(1)            | Removes and returns the element from the top of the stack. |
+| **Peek**     | O(1)            | Returns the element at the top of the stack without removing it. |
+| **IsEmpty**  | O(1)            | Checks whether the stack is empty or not. |
+| **Size**     | O(1)            | Returns the total number of elements in the stack. |
+
+Stacks can be implemented using either arrays or linked lists:
+- **Array-based implementation**: A fixed-size array where elements are added or removed from one end (typically the end of the array) with a pointer to the top element.
+- **Linked-list-based implementation**: Each element is represented by a node in a linked list, with the top of the stack represented by the head node.
+
+** Uses of Stacks
+
+Stacks can be used to:
+- Store elements with sequential dependencies (e.g., expression evaluation).
+- Ensure safe storage without arbitrary modification (e.g., maintaining transaction history).
+- Repeatedly modify a stream of elements based on conditions (e.g., job scheduling based on priority).
+
+** Examples
+
+- **Reverse a string using stack**: Given an input string as an array of characters, reverse all the characters.
+- **Evaluate postfix expression**: Given an array of tokens that represents an arithmetic expression in a postfix notation, evaluate the expression and return an integer.
+
+** Does your problem match this pattern?
+
+Yes, if either of these conditions is fulfilled:
+- Reverse order processing
+- Nested structures handling
+- State tracking
+- Expression evaluation
+
+No, if either of these conditions is fulfilled:
+- Order dependence (other than LIFO)
+- Random access
+- Need for searching
+
+** Real-world problems
+
+Many real-world problems share the stack pattern:
+- **Function call stack**: Used to manage function calls in programming languages.
+- **Text editor undo/redo**: Stacks store edit operations to allow undo/redo functionality.
+- **Browser back and forward buttons**: The back/forward navigation in web browsers is implemented using a stack.
+- **Call history in smartphones**: Call history is managed as a stack for last-in, first-out access.
+
+** Strategy time!
+
+Match the problems that can be solved using the stacks pattern:
+
+- **Check if the parentheses in a mathematical expression are balanced**: Opening parentheses are pushed onto the stack, and when encountering closing parentheses, we ensure they correspond to a matching opening parenthesis by popping from the stack.
+- **Find the minimum number of perfect squares summing to a positive integer**: Not suitable for stacks due to dynamic programming requirements.
+- **Find the kth largest element in an unsorted array**: Not suitable for stacks, as this task usually requires sorting or priority queues.
+- **Convert an infix expression to a postfix notation**: Push operands directly to the output, compare operator precedence, and pop and output higher precedence operators until the stack is empty.
