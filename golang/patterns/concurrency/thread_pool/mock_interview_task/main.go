@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math/rand/v2"
 	"sync"
 	"time"
 )
@@ -33,17 +34,23 @@ func NewWorker(id int, workerPool chan chan string) Worker {
 func (w Worker) Start(wg *sync.WaitGroup) {
 	go func() {
 
-		defer wg.Done()
-
 		for {
 			w.WorkerPool <- w.TaskChanel
 
 			select {
 			case task := <-w.TaskChanel:
-				fmt.Println(task, " -  ", w.ID)
-				time.Sleep(1 * time.Second)
+				n := rand.IntN(3) + 1
+				fmt.Printf("Downloaded file from: %s by %d and estimated time is %d second \n", task, w.ID, n)
+				if n >= 3 {
+					fmt.Println("Cancel task!", task)
+					wg.Done()
+					continue
+				}
+				time.Sleep(time.Duration(n) * time.Second)
+				wg.Done()
 			case <-w.Quit:
 				fmt.Println("Quit")
+				wg.Done()
 				return
 			}
 		}
@@ -76,9 +83,8 @@ func NewDispatcher(maxWorkers int, taskQueue chan string) Dispatcher {
 
 func (d Dispatcher) Run() {
 	for i := 0; i < d.MaxWorkers; i++ {
-		worker := NewWorker(i+1, d.WorkerPool)
+		worker := NewWorker(i, d.WorkerPool)
 		d.Workers[i] = worker
-		d.wg.Add(1)
 		worker.Start(d.wg)
 	}
 	go d.dispatch()
@@ -95,10 +101,6 @@ func (d Dispatcher) dispatch() {
 }
 
 func (d Dispatcher) Stop() {
-	for _, worker := range d.Workers {
-		worker.Stop()
-	}
-
 	d.wg.Wait()
 }
 
@@ -114,8 +116,8 @@ func main() {
 	for i := 0; i < numTasks; i++ {
 		fmt.Println("Task started:", i)
 		taskQueue <- urls[i]
+		dispatcher.wg.Add(1)
 	}
 
 	dispatcher.Stop()
-	//time.Sleep(20 * time.Second)
 }
