@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"fmt"
 	"math/rand/v2"
 	"sync"
@@ -39,19 +40,29 @@ func (w Worker) Start(wg *sync.WaitGroup) {
 
 			select {
 			case task := <-w.TaskChanel:
-				n := rand.IntN(3) + 1
-				fmt.Printf("Downloaded file from: %s by %d and estimated time is %d second \n", task, w.ID, n)
-				if n >= 3 {
-					fmt.Println("Cancel task!", task)
-					wg.Done()
-					continue
+				ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+				defer cancel()
+
+				done := make(chan bool)
+				go func() {
+					n := rand.IntN(3) + 1
+					fmt.Printf("Downloaded file from: %s by %d and estimated time is %d second \n", task, w.ID, n)
+					time.Sleep(time.Duration(n) * time.Second)
+					done <- true
+				}()
+
+				select {
+				case <-done:
+					fmt.Println("Completed:", task)
+				case <-ctx.Done():
+					fmt.Println("Cancelled:", task)
 				}
-				time.Sleep(time.Duration(n) * time.Second)
 				wg.Done()
+
 			case <-w.Quit:
-				fmt.Println("Quit")
-				wg.Done()
+				fmt.Println("Worker", w.ID, "quitting")
 				return
+
 			}
 		}
 	}()
