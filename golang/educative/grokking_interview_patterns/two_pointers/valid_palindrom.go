@@ -1,10 +1,11 @@
 package main
 
 func isPalindrome(inputString string) bool {
+	runes := []rune(inputString)
 	start := 0
-	end := len(inputString) - 1
+	end := len(runes) - 1
 	for start < end {
-		if inputString[start] != inputString[end] {
+		if runes[start] != runes[end] {
 			return false
 		}
 		start++
