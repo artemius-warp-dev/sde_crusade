@@ -2,97 +2,61 @@ package main
 
 import (
 	"fmt"
+	"regexp"
 	"strings"
 )
 
-func reverseWords(sentence string) string {
+func reverseWords(sentece string) string {
+	reg := regexp.MustCompile(`\s+`)
+	sentece = reg.ReplaceAllLiteralString(sentece, " ")
+	sentece = strings.TrimSpace(sentece)
+	runes := []rune(sentece)
+	runes = strRev(runes, 0, len(runes)-1)
 
-	reversedString := reverseString(sentence)
+	strLen := len(runes) - 1
 
-	runes := []rune(reversedString)
+	for start, end := 0, 0; end <= strLen; end++ {
+		if end == strLen || runes[end] == ' ' {
+			var endIdx int
 
-	output := ""
+			if end == strLen {
+				endIdx = end
+			} else {
+				endIdx = end - 1
+			}
 
-	reversedWord := ""
-
-	//fmt.Println(reversedString)
-
-	start, end := 0, 0
-
-	for end < len(runes) {
-
-		//fmt.Printf("%c\n", runes[end])
-
-		if runes[end] == ' ' {
-
-			//fmt.Println(string(runes[start:end]), len(runes[start:end]), end)
-
-			reversedWord = reverseString(string(runes[start:end]))
-
-			//fmt.Println(reversedWord, len([]rune(reversedWord)))
-
-			fmt.Println(reversedWord, len([]rune(reversedWord)))
-
-			output = concat(output, reversedWord)
-
-			start = start + len([]rune(reversedWord)) + 1
-
-			end = start
-
-			//fmt.Println(start, end)
-
+			runes = strRev(runes, start, endIdx)
+			start = end + 1
 		}
-
-		//fmt.Println(end)
-
-		end++
-
 	}
 
-	reversedWord = reverseString(string(runes[start:end]))
-
-	//fmt.Println(reversedWord, len([]rune(reversedWord)))
-
-	return concat(output, reversedWord)
+	return string(runes)
 
 }
 
-func concat(output string, str string) string {
-
-	var result string
-
-	if output != "" && str != "" {
-
-		output += " "
-
+func strRev(runes []rune, startRev, endRev int) []rune {
+	for startRev < endRev {
+		runes[startRev], runes[endRev] = runes[endRev], runes[startRev]
+		startRev++
+		endRev--
 	}
-
-	//fmt.Println(str, output)
-
-	if str != " " && str != "" {
-
-		result = output + str
-
-	} else {
-
-		result = output
-
-	}
-
-	return result
-
+	return runes
 }
 
-func reverseString(sentence string) string {
-
-	runes := []rune(sentence)
-
-	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
-
-		runes[i], runes[j] = runes[j], runes[i]
-
+// Driver code
+func main() {
+	stringsToReverse := []string{
+		"Hello World",
+		"a   string   with   multiple   spaces",
+		"Case Sensitive Test 1234",
+		"a 1 b 2 c 3 d 4 e 5",
+		"     trailing spaces",
+		"case test interesting an is this",
 	}
 
-	return strings.TrimSpace(string(runes))
-
+	for i, str := range stringsToReverse {
+		fmt.Printf("%d.\tOriginal string: '%s'\n", i+1, str)
+		fmt.Printf("\tReversed string: '%s'\n", reverseWords(str))
+		fmt.Println(strings.Repeat("-", 100))
+	}
 }
