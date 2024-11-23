@@ -1,34 +1,56 @@
 package main
 
+import (
+	"fmt"
+	"strings"
+)
+
+// Function to check if a number is strobogrammatic
 func isStrobogrammatic(num string) bool {
-	// Define the valid strobogrammatic mappings
-	strobogrammaticMap := map[byte]byte{
+	// Map to store the valid strobogrammatic pairs
+	dict := map[rune]rune{
 		'0': '0',
 		'1': '1',
-		'6': '9',
 		'8': '8',
+		'6': '9',
 		'9': '6',
 	}
 
-	// Initialize two pointers
-	left, right := 0, len(num)-1
+	left := 0
+	right := len(num) - 1
 
-	// Move the pointers towards the center
+	// Iterate while the left pointer is less than or equal to the right pointer
 	for left <= right {
-		// Get the digits from both ends
-		leftChar := num[left]
-		rightChar := num[right]
+		leftChar := rune(num[left])
+		rightChar := rune(num[right])
 
-		// Check if the current digits are valid and match each other's rotated version
-		if val, ok := strobogrammaticMap[leftChar]; !ok || val != rightChar {
+		// Check if the current digit is valid and matches its corresponding rotated value
+		if val, exists := dict[leftChar]; !exists || val != rightChar {
 			return false
 		}
 
-		// Move the pointers
+		// Move pointers towards the center
 		left++
 		right--
 	}
 
-	// If all pairs are valid
+	// Return true if all digit pairs are valid
 	return true
+}
+
+// Driver code
+func main() {
+	nums := []string{
+		"609",
+		"88",
+		"962",
+		"101",
+		"123",
+	}
+
+	for i, num := range nums {
+		fmt.Printf("%d.\tnum: %s\n", i+1, num)
+		fmt.Printf("\n\tIs strobogrammatic: %v\n", isStrobogrammatic(num))
+		fmt.Println(strings.Repeat("-", 100))
+	}
 }
