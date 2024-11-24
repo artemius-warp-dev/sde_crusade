@@ -1,37 +1,43 @@
 package main
 
+import (
+	"fmt"
+	"strings"
+)
+
 func minMovesToMakePalindrome(s string) int {
 
 	chars := []rune(s)
 	moves := 0
 
-	i, j := 0, len(chars)-1
-
-	for i < j {
-		if chars[i] == chars[j] {
-			i++
-			j++
-		} else {
-			k := j
-			for k > i && chars[k] != chars[i] {
-				k--
-			}
-
-			if k == i {
-				chars[i], chars[i+1] = chars[i+1], chars[i]
-				moves++
-			} else {
+	for i, j := 0, len(chars)-1; i < j; i++ {
+		k := j
+		for k > i {
+			if chars[i] == chars[k] {
 				for k < j {
 					chars[k], chars[k+1] = chars[k+1], chars[k]
-					k++
 					moves++
+					k++
 				}
-
-				i++
 				j--
+				break
 			}
+			k--
+		}
+		if k == i {
+			moves += len(chars)/2 - i
 		}
 	}
-
 	return moves
+
+}
+
+func main() {
+	strs := []string{"ccxx", "arcacer", "w", "ooooooo", "eggeekgbbeg"}
+
+	for i, s := range strs {
+		fmt.Printf("%d.\ts: %s\n", i+1, s)
+		fmt.Printf("\tMoves: %d\n", minMovesToMakePalindrome(s))
+		fmt.Println(strings.Repeat("-", 100))
+	}
 }
