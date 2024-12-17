@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 type EduLinkedListNode struct {
 	data int
@@ -79,31 +82,81 @@ func ReverseList(slowPtr *EduLinkedListNode) *EduLinkedListNode {
 
 func palindrome(head *EduLinkedListNode) bool {
 
-	slow, fast := head, head
+	slow := head
+	fast := head
+	revertData := new(EduLinkedListNode)
+	revertData = nil
 
-	for fast.next != nil && fast.next.next != nil {
+	for fast != nil && fast.next != nil {
 		slow = slow.next
 		fast = fast.next.next
 	}
 
-	reversedHalfPtr := ReverseList(slow)
-	slow = head
-	for reversedHalfPtr.next != nil {
-		if slow.data != reversedHalfPtr.data {
+	revertData = ReverseList(slow)
+	check := false
+	check = compareTwoHalves(head, revertData)
+	ReverseList(revertData)
+
+	if check {
+		return true
+	}
+	return false
+}
+
+func compareTwoHalves(firstHalf *EduLinkedListNode, secondHalf *EduLinkedListNode) bool {
+	for firstHalf != nil && secondHalf != nil {
+		if firstHalf.data != secondHalf.data {
 			return false
+		} else {
+			firstHalf = firstHalf.next
+			secondHalf = secondHalf.next
 		}
 
-		slow = slow.next
-		reversedHalfPtr = reversedHalfPtr.next
 	}
-
 	return true
 }
 
+/*
+	DisplayLinkedListWithForwardArrow method will display the linked list
+
+not in the form of an array, but rather a list with arrows pointing to
+the next element
+*/
+func DisplayLinkedListWithForwardArrow(l *EduLinkedListNode) {
+	temp := l
+	for temp != nil {
+		fmt.Print(temp.data)
+		temp = temp.next
+		if temp != nil {
+			fmt.Print(" → ")
+		} else {
+			fmt.Print(" → null")
+		}
+	}
+}
+
+// Driver code
 func main() {
-	data := []int{1, 2, 4, 4, 2, 1}
-	var list EduLinkedList
-	list.CreateLinkedList(data)
-	list.DisplayLinkedList()
-	fmt.Println("\n", palindrome(list.head))
+	inputArray := [][]int{
+		{2, 4, 6, 4, 2},
+		{0, 3, 5, 5, 0},
+		{9, 7, 4, 4, 7, 9},
+		{5, 4, 7, 9, 4, 5},
+		{5, 9, 8, 3, 8, 9, 5},
+	}
+
+	for i, input := range inputArray {
+		linkedList := new(EduLinkedList)
+		linkedList.CreateLinkedList(input)
+		fmt.Printf("%d\tLinked List: ", i+1)
+		DisplayLinkedListWithForwardArrow(linkedList.head)
+		fmt.Printf("\n")
+		fmt.Printf("\tIs is Palindrome = ")
+		if palindrome(linkedList.head) {
+			fmt.Printf("Yes\n")
+		} else {
+			fmt.Printf("No\n")
+		}
+		fmt.Printf("%s\n", strings.Repeat("-", 100))
+	}
 }
