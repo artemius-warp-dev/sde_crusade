@@ -88,8 +88,10 @@ func SwapTwoNodes(node1 *EduLinkedListNode, node2 *EduLinkedListNode) {
 
 func swapNodes(head *EduLinkedListNode, k int) *EduLinkedListNode {
 	count := 0
-	front := new(EduLinkedListNode)
-	end := new(EduLinkedListNode)
+	var front, end *EduLinkedListNode
+	front, end = nil, nil
+	//front := new(EduLinkedListNode)
+	//end := new(EduLinkedListNode)
 	curr := head
 
 	for curr != nil {
