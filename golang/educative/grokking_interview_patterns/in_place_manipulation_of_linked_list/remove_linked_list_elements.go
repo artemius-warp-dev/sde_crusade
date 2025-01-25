@@ -61,12 +61,6 @@ func (l *EduLinkedList) DisplayLinkedList() {
 	fmt.Print("]")
 }
 
-/*
-	DisplayLinkedListWithForwardArrow method will display the linked list
-
-not in the form of an array, but rather a list with arrows pointing to
-the next element
-*/
 func DisplayLinkedListWithForwardArrow(l *EduLinkedListNode) {
 	temp := l
 	for temp != nil {
@@ -80,62 +74,52 @@ func DisplayLinkedListWithForwardArrow(l *EduLinkedListNode) {
 	}
 }
 
-func SwapTwoNodes(node1 *EduLinkedListNode, node2 *EduLinkedListNode) {
-	temp := node1.data
-	node1.data = node2.data
-	node2.data = temp
-}
+func RemoveElements(head *EduLinkedListNode, k int) *EduLinkedListNode {
+	dummy := &EduLinkedListNode{data: 0, next: head}
 
-func swapNodes(head *EduLinkedListNode, k int) *EduLinkedListNode {
-	count := 0
-	var front, end *EduLinkedListNode
-	front, end = nil, nil
-	//front := new(EduLinkedListNode)
-	//end := new(EduLinkedListNode)
+	// for head != nil && head.data == k {
+	// 	head = head.next
+	// }
+
+	prev := dummy
 	curr := head
 
 	for curr != nil {
-		count += 1
-		if end != nil {
-			end = end.next
+		if curr.data == k {
+			prev.next = curr.next
+			curr = curr.next
+		} else {
+			prev = curr
+			curr = curr.next
 		}
-		if count == k {
-			front = curr
-			end = head
-		}
-		curr = curr.next
 	}
-
-	SwapTwoNodes(front, end)
-	return head
+	return dummy.next
 }
 
-// Driver code
 func main() {
-	inputList := [][]int{
-		{1, 2, 3, 4, 5, 6, 7},
-		{6, 9, 3, 10, 7, 4, 6},
-		{6, 9, 3, 4},
-		{6, 2, 3, 6, 9},
-		{6, 2},
+	// Test cases
+	lists := [][]int{
+		{9, 7, 8, 7, 7, 6},
+		{2, 3, 5, 7, 11},
+		{4, 4, 4, 4, 4},
+		{1, 2, 3, 11, 22, 33},
+		{1, 2, 6, 3, 4, 5, 6},
 	}
 
-	k := []int{2, 3, 2, 3, 1}
+	ks := []int{7, 8, 4, 3, 6}
 
-	for index, value := range inputList {
-		linkedList := new(EduLinkedList)
-		linkedList.CreateLinkedList(value)
-		fmt.Printf("%d.\tOriginal linked list is: ", index+1)
-		DisplayLinkedListWithForwardArrow(linkedList.head)
-		fmt.Printf("\n\tk: %d\n", k[index])
+	for i, values := range lists {
+		inputLinkedList := &EduLinkedList{}
+		inputLinkedList.CreateLinkedList(values)
+		fmt.Printf("%d.\tLinked list: ", i+1)
+		DisplayLinkedListWithForwardArrow(inputLinkedList.head)
 
-		if k[index] <= 0 {
-			fmt.Print("\tThe expected 'k' to have value from 1 to length of the linked list only.\n")
-		} else {
-			swapNodes(linkedList.head, k[index])
-			fmt.Print("\tLinked list with swapped values: ")
-			DisplayLinkedListWithForwardArrow(linkedList.head)
-		}
-		fmt.Printf("\n%s\n", strings.Repeat("-", 100))
+		fmt.Printf("\n\tk: %d\n", ks[i])
+
+		fmt.Printf("\tLinked list after removing elements: ")
+		res := RemoveElements(inputLinkedList.head, ks[i])
+		DisplayLinkedListWithForwardArrow(res)
+		fmt.Println("\n")
+		fmt.Println(strings.Repeat("-", 100))
 	}
 }
