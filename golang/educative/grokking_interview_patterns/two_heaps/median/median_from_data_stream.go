@@ -134,9 +134,7 @@ func (this *MedianOfStream) InsertNum(num int) float64 {
 
 func (this *MedianOfStream) FindMedian() float64 {
 	if this.maximumList.Len() == this.minimumList.Len() {
-		return float64(this.maximumList.Top())/2.0 + float64(this.minimumList.Top())/2.0
-
-		//return (float64(this.maximumList.Top()) + float64(this.minimumList.Top())) / 2.0
+		return (float64(this.maximumList.Top()) + float64(this.minimumList.Top())) / 2.0
 	}
 
 	return float64(this.maximumList.Top())
