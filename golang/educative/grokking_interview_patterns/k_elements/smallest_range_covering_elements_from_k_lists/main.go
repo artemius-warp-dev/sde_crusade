@@ -31,7 +31,7 @@ func (pq PriorityQueue) Swap(i, j int) {
 func (pq *PriorityQueue) Push(x interface{}) {
 	*pq = append(*pq, x.(Element))
 }
-l
+
 func (pq *PriorityQueue) Pop() interface{} {
 	old := *pq
 	n := len(old)
