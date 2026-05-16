@@ -2,7 +2,9 @@ package main
 
 import (
 	"container/heap"
+	"fmt"
 	"strconv"
+	"strings"
 )
 
 type IntervalHeap [][]int
@@ -51,14 +53,11 @@ func (i *Interval) str() string {
 	return out
 }
 
-
-
-
 func employeeFreeTime(schedule [][]*Interval) []*Interval {
 	h := &IntervalHeap{}
 	heap.Init(h)
 
-	for i:=0; i< len(schedule); i++ {
+	for i := 0; i < len(schedule); i++ {
 		employeeSchedule := schedule[i]
 		interval := employeeSchedule[0]
 		heap.Push(h, []int{interval.Start, i, 0})
@@ -80,6 +79,58 @@ func employeeFreeTime(schedule [][]*Interval) []*Interval {
 
 		previous = max(previous, interval.End)
 
-		if j+1 < len
+		if j+1 < len(schedule[i]) {
+			nextInterval := schedule[i][j+1]
+			heap.Push(h, []int{nextInterval.Start, i, j + 1})
+		}
+	}
+	return result
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+// Function for displaying interval list
+func display(l1 []*Interval) string {
+	if len(l1) == 0 {
+		return "[]"
+	}
+
+	resultStr := "["
+	for i := 0; i < len(l1)-1; i++ {
+		resultStr += "[" + strconv.Itoa(l1[i].Start) + ", "
+		resultStr += strconv.Itoa(l1[i].End) + "], "
+	}
+
+	resultStr += "[" + strconv.Itoa(l1[len(l1)-1].Start) + ", "
+	resultStr += strconv.Itoa(l1[len(l1)-1].End) + "]"
+	resultStr += "]"
+
+	return resultStr
+}
+
+// Driver code
+func main() {
+	inputs := [][][]*Interval{
+		{{&Interval{1, 2}, &Interval{5, 6}}, {&Interval{1, 3}}, {&Interval{4, 10}}},
+		{{&Interval{1, 3}, &Interval{6, 7}}, {&Interval{2, 4}}, {&Interval{2, 5}, &Interval{9, 12}}},
+		{{&Interval{2, 3}, &Interval{7, 9}}, {&Interval{1, 4}, &Interval{6, 7}}},
+		{{&Interval{3, 5}, &Interval{8, 10}}, {&Interval{4, 6}, &Interval{9, 12}}, {&Interval{5, 6}, &Interval{8, 10}}},
+		{{&Interval{1, 3}, &Interval{6, 9}, &Interval{10, 11}}, {&Interval{3, 4}, &Interval{7, 12}}, {&Interval{1, 3}, &Interval{7, 10}}, {&Interval{1, 4}}, {&Interval{7, 10}, &Interval{11, 12}}},
+		{{&Interval{1, 2}, &Interval{3, 4}, &Interval{5, 6}, &Interval{7, 8}}, {&Interval{2, 3}, &Interval{4, 5}, &Interval{6, 8}}},
+		{{&Interval{1, 2}, &Interval{3, 4}, &Interval{5, 6}, &Interval{7, 8}, &Interval{9, 10}, &Interval{11, 12}}, {&Interval{1, 2}, &Interval{3, 4}, &Interval{5, 6}, &Interval{7, 8}, &Interval{9, 10}, &Interval{11, 12}}, {&Interval{1, 2}, &Interval{3, 4}, &Interval{5, 6}, &Interval{7, 8}, &Interval{9, 10}, &Interval{11, 12}}, {&Interval{1, 2}, &Interval{3, 4}, &Interval{5, 6}, &Interval{7, 8}, &Interval{9, 10}, &Interval{11, 12}}},
+	}
+
+	for i, schedule := range inputs {
+		fmt.Printf("%d.\tEmployee Schedules:\n", i+1)
+		for _, s := range schedule {
+			fmt.Printf("\t\t%s\n", display(s))
+		}
+		fmt.Printf("\n\tEmployees' free time: %s\n", display(employeeFreeTime(schedule)))
+		fmt.Printf("%s\n", strings.Repeat("-", 100))
 	}
 }
